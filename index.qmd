@@ -1,0 +1,54 @@
+---
+title: "Walter Mangione – PhD Student"
+format: html
+---
+
+## About Me
+
+::: {.columns}
+
+::: {.column width="30%"}
+![](assets/images/profile.jpg){ width=100% style="border-radius: 10px;" }
+:::
+
+::: {.column width="70%"}
+Hi! I am **Walter Mangione**, a PhD student in **Computer Science and Mathematics** at **Università degli Studi di Bari, Aldo Moro**.
+
+I hold a **Bachelor’s degree in Computer Science** and a **Master’s degree in Data Science**, both _cum laude_.  
+
+My current research focuses on **Alzheimer’s disease**, with an emphasis on **graph-based computational approaches** for understanding its underlying mechanisms.  
+I am particularly interested in **state-of-the-art methods for graph construction in brain connectome representations**, including the development and evaluation of different graph-building strategies. I also explore **graph neural networks (GNNs)** for modeling brain connectivity, focusing on **general GNN applications**, as well as the **explainability and interpretability** of these models. Additionally, I am fascinated by the **mathematical foundations of machine learning models**, combining theoretical insights with practical applications to enhance both performance and interpretability.  
+I am strongly convinced of the **role and importance of scientific research for humanity**, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being.
+:::
+
+:::
+
+---
+
+## Skills & Tools
+
+| Category                        | Skills & Tools |
+|---------------------------------|----------------|
+| **Programming**                 | Python ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white), R ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white), C++ ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) |
+| **Data Science & ML**           | PyTorch ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white), TensorFlow ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white), scikit-learn ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white), GNN ![GNN](https://img.shields.io/badge/GNN-6f42c1?style=flat-square&logoColor=white) |
+| **Mathematics in ML**           | Linear algebra, probability, optimization, graph theory |
+| **Graph Analysis & Brain Networks** | Connectome construction, network metrics, visualization |
+| **Data Visualization**          | Matplotlib ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=matplotlib&logoColor=white), Seaborn ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logo=python&logoColor=white), Plotly ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) |
+| **Other**                        | Git, Linux, SQL |
+
+---
+
+
+## Selected Achievements
+
+- Published research papers in top-tier conferences and journals  
+- Developed open-source tools for graph-based data analysis  
+- Received [Award/Scholarship name] (optional, add yours)
+
+---
+
+## Connect with Me
+
+- [Research](research.qmd) – See my publications and current projects  
+- [CV](cv.qmd) – Download my full curriculum vitae  
+- [Contact](contact.qmd) – Get in touch via email or LinkedIn

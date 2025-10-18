@@ -1,0 +1,22 @@
+project:
+  type: website
+
+output-dir: _site
+
+website:
+  title: "Walter Mangione"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Contact"
+        href: contact.qmd
+
+format:
+  html:
+    theme: darkly   # Dark mode only
+    css: styles.css
