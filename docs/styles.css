@@ -1,0 +1,21 @@
+/* styles.css */
+
+/* General text readability */
+body {
+  font-family: "Inter", "Roboto", sans-serif;
+  color: #e0e0e0;
+}
+
+/* Softer link color for dark backgrounds */
+a {
+  color: #82b1ff;
+}
+
+a:hover {
+  color: #a8caff;
+}
+
+/* Optional: slightly elevate navbar */
+.navbar {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
