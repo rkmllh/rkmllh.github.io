@@ -1,10 +1,4 @@
 ---
-format: html
-page-layout: full
-css: style.css
----
-
----
 title: "Who Am I?"
 format: html
 ---

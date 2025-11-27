@@ -1,5 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
 
+/* --- AGGRESSIVE NAVBAR OVERRIDES --- */
+
+/* 1. Background (The entire navbar container) */
+.navbar.navbar-expand-lg.bg-dark {
+    /* Use !important on both background and border */
+    background-color: #000000 !important; /* Pure Black Background */
+    border-bottom: 2px solid #39FF14 !important; /* Neon green bottom border */
+}
+
+/* 2. Brand/Title Color */
+.navbar-brand {
+    color: #39FF14 !important; /* Neon Green Title */
+    font-family: 'Orbitron', sans-serif !important; /* Force Orbitron here */
+}
+
+/* 3. Link Text Color (Default state) */
+.navbar-nav .nav-link {
+    /* Using multiple class names makes the selector stronger */
+    color: #39FF14 !important; /* Neon Green Text */
+    font-family: 'Orbitron', sans-serif !important; /* Force Orbitron here */
+    transition: all 0.2s ease-in-out; /* Smooth transition */
+}
+
+/* 4. Hover/Focus/Active (Interaction States) */
+
+/* When the mouse is over the link */
+.navbar-nav .nav-link:hover {
+    color: #FFFFFF !important; /* White on hover */
+    background-color: #111111 !important; /* Slight dark background */
+}
+
+/* The link for the page you are currently viewing */
+.navbar-nav .nav-link.active {
+    color: #000000 !important; /* Black text */
+    background-color: #39FF14 !important; /* Neon Green background for active link */
+    border-radius: 4px;
+}
+
 body {
     font-family: 'Orbitron', sans-serif;
     background-color: #000000;

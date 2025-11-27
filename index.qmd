@@ -1,11 +1,4 @@
 ---
-title: "My Website"
-format: html
-page-layout: full
-css: style.css
----
-
----
 title: "Walter Mangione – PhD Student"
 format: html
 ---
