@@ -1,25 +1,14 @@
 ---
+title: "My Website"
+format: html
+page-layout: full
+css: style.css
+---
+
+---
 title: "Walter Mangione – PhD Student"
 format: html
 ---
-
-```{=html}
-<pre style="font-family: monospace; background-color: transparent; border: none; padding: 0; margin: 0; line-height: 1.2; color: inherit;">
-                                                  
-                                                                              
-          ,o888888o.     8 8888 8 8888                  .8.          8 888888888o   
-         8888     `88.   8 8888 8 8888                 .888.         8 8888    `88. 
-      ,8 8888       `8.  8 8888 8 8888                :88888.        8 8888     `88 
-      88 8888            8 8888 8 8888               . `88888.       8 8888     ,88 
-      88 8888            8 8888 8 8888              .8. `88888.      8 8888.   ,88' 
-      88 8888            8 8888 8 8888             .8`8. `88888.     8 8888888888   
-      88 8888            8 8888 8 8888            .8' `8. `88888.    8 8888    `88. 
-      `8 8888       .8'  8 8888 8 8888           .8'   `8. `88888.   8 8888      88 
-         8888     ,88'   8 8888 8 8888          .888888888. `88888.  8 8888    ,88' 
-          `8888888P'     8 8888 8 888888888888 .8'       `8. `88888. 8 888888888P
-                                                  
-</pre>
-```
 
 Hi! I am **Walter Mangione**, a PhD student in **Computer Science and Mathematics** at **Università degli Studi di Bari, Aldo Moro**.
 
@@ -28,4 +17,5 @@ I hold a **Bachelor’s degree in Computer Science** and a **Master’s degree i
 From this page, you can:  
 
 - 🔍 [Discover more about me](about.qmd)
-- 📧 [Reach me](contacts.qmd)  
+- 📚 [Explore my research](research.qmd)
+- 📧 [Reach me](contacts.qmd)

@@ -1,37 +1,37 @@
 [
   {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "My research",
+    "section": "",
+    "text": "My research\n  \n       \n                                                                          bbbbbbbb            \n                                           iiii  lllllll                  b::::::b   \n                                          i::::i l:::::l                  b::::::b         \n                                           iiii  l:::::l                  b::::::b            \n                                                 l:::::l                   b:::::b            \n                         cccccccccccccccciiiiiii  l::::l   aaaaaaaaaaaaa   b:::::bbbbbbbbb    \n                       cc:::::::::::::::ci:::::i  l::::l   a::::::::::::a  b::::::::::::::bb  \n                      c:::::::::::::::::c i::::i  l::::l   aaaaaaaaa:::::a b::::::::::::::::b \n                     c:::::::cccccc:::::c i::::i  l::::l            a::::a b:::::bbbbb:::::::b\n                     c::::::c     ccccccc i::::i  l::::l     aaaaaaa:::::a b:::::b    b::::::b\n                     c:::::c              i::::i  l::::l   aa::::::::::::a b:::::b     b:::::b\n                     c:::::c              i::::i  l::::l  a::::aaaa::::::a b:::::b     b:::::b\n                     c::::::c     ccccccc i::::i  l::::l a::::a    a:::::a b:::::b     b:::::b\n                     c:::::::cccccc:::::ci::::::il::::::la::::a    a:::::a b:::::bbbbbb::::::b\n                      c:::::::::::::::::ci::::::il::::::la:::::aaaa::::::a b::::::::::::::::b \n                       cc:::::::::::::::ci::::::il::::::l a::::::::::aa:::ab:::::::::::::::b  \n                         cccccccccccccccciiiiiiiillllllll  aaaaaaaaaa  aaaabbbbbbbbbbbbbbbb\n\n   \n\nCurrently, I belong to Cilab (Computational Intelligence Laboratory).\nMy current research focuses on brain diseases, with an emphasis on graph-based computational approaches for understanding its underlying mechanisms.\nI am particularly interested in state-of-the-art methods for graph construction in brain connectome representations, including the development and evaluation of different graph-building strategies. I also explore graph neural networks (GNNs) for modeling brain connectivity, focusing on general GNN applications, as well as the explainability and interpretability of these models.\nAdditionally, I am fascinated by the mathematical foundations of machine learning models, combining theoretical insights with practical applications to enhance both performance and interpretability.\nI am strongly convinced of the role and importance of scientific research for humanity, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Walter Mangione – PhD Student",
     "section": "",
-    "text": ",o888888o.     8 8888 8 8888                  .8.          8 888888888o   \n         8888     `88.   8 8888 8 8888                 .888.         8 8888    `88. \n      ,8 8888       `8.  8 8888 8 8888                :88888.        8 8888     `88 \n      88 8888            8 8888 8 8888               . `88888.       8 8888     ,88 \n      88 8888            8 8888 8 8888              .8. `88888.      8 8888.   ,88' \n      88 8888            8 8888 8 8888             .8`8. `88888.     8 8888888888   \n      88 8888            8 8888 8 8888            .8' `8. `88888.    8 8888    `88. \n      `8 8888       .8'  8 8888 8 8888           .8'   `8. `88888.   8 8888      88 \n         8888     ,88'   8 8888 8 8888          .888888888. `88888.  8 8888    ,88' \n          `8888888P'     8 8888 8 888888888888 .8'       `8. `88888. 8 888888888P\n                                                  \n\nHi! I am Walter Mangione, a PhD student in Computer Science and Mathematics at Università degli Studi di Bari, Aldo Moro.\nI hold a Bachelor’s degree in Computer Science and a Master’s degree in Data Science, both cum laude.\nFrom this page, you can:\n\n🔍 Discover more about me\n📧 Reach me"
+    "text": "Hi! I am Walter Mangione, a PhD student in Computer Science and Mathematics at Università degli Studi di Bari, Aldo Moro.\nI hold a Bachelor’s degree in Computer Science and a Master’s degree in Data Science, both cum laude.\nFrom this page, you can:\n\n🔍 Discover more about me\n📚 Explore my research\n📧 Reach me"
   },
   {
     "objectID": "contacts.html",
     "href": "contacts.html",
     "title": "Walter Mangione",
     "section": "",
-    "text": "📧 w.mangione@phd.uniba.it \n  Walter Mangione, PhD"
+    "text": "Feel free to reach me at:\n\n\n 📧 w.mangione@phd.uniba.it \n  Walter Mangione, PhD \n  GitHub: rkmllh"
   },
   {
     "objectID": "contacts.html#contacts",
     "href": "contacts.html#contacts",
     "title": "Walter Mangione",
     "section": "",
-    "text": "📧 w.mangione@phd.uniba.it \n  Walter Mangione, PhD"
+    "text": "Feel free to reach me at:\n\n\n 📧 w.mangione@phd.uniba.it \n  Walter Mangione, PhD \n  GitHub: rkmllh"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Me – Walter Mangione",
+    "title": "Who Am I?",
     "section": "",
-    "text": "My current research focuses on brain diseases, with an emphasis on graph-based computational approaches for understanding its underlying mechanisms.\nI am particularly interested in state-of-the-art methods for graph construction in brain connectome representations, including the development and evaluation of different graph-building strategies. I also explore graph neural networks (GNNs) for modeling brain connectivity, focusing on general GNN applications, as well as the explainability and interpretability of these models.\nAdditionally, I am fascinated by the mathematical foundations of machine learning models, combining theoretical insights with practical applications to enhance both performance and interpretability.\nI am strongly convinced of the role and importance of scientific research for humanity, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being."
-  },
-  {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "About Me – Walter Mangione",
-    "section": "",
-    "text": "My current research focuses on brain diseases, with an emphasis on graph-based computational approaches for understanding its underlying mechanisms.\nI am particularly interested in state-of-the-art methods for graph construction in brain connectome representations, including the development and evaluation of different graph-building strategies. I also explore graph neural networks (GNNs) for modeling brain connectivity, focusing on general GNN applications, as well as the explainability and interpretability of these models.\nAdditionally, I am fascinated by the mathematical foundations of machine learning models, combining theoretical insights with practical applications to enhance both performance and interpretability.\nI am strongly convinced of the role and importance of scientific research for humanity, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being."
+    "text": ".S_sSSs     .S_sSSs      sSSs_sSSs      sSSSSs   .S_sSSs     .S_SSSs     .S_SsS_S.    .S_SsS_S.    .S   .S_sSSs      sSSSSs  \n.SS~YS%%b   .SS~YS%%b    d%%SP~YS%%b    d%%%%SP  .SS~YS%%b   .SS~SSSSS   .SS~S*S~SS.  .SS~S*S~SS.  .SS  .SS~YS%%b    d%%%%SP  \nS%S   `S%b  S%S   `S%b  d%S'     `S%b  d%S'      S%S   `S%b  S%S   SSSS  S%S `Y' S%S  S%S `Y' S%S  S%S  S%S   `S%b  d%S'      \nS%S    S%S  S%S    S%S  S%S       S%S  S%S       S%S    S%S  S%S    S%S  S%S     S%S  S%S     S%S  S%S  S%S    S%S  S%S       \nS%S    d*S  S%S    d*S  S&S       S&S  S&S       S%S    d*S  S%S SSSS%S  S%S     S%S  S%S     S%S  S&S  S%S    S&S  S&S       \nS&S   .S*S  S&S   .S*S  S&S       S&S  S&S       S&S   .S*S  S&S  SSS%S  S&S     S&S  S&S     S&S  S&S  S&S    S&S  S&S       \nS&S_sdSSS   S&S_sdSSS   S&S       S&S  S&S       S&S_sdSSS   S&S    S&S  S&S     S&S  S&S     S&S  S&S  S&S    S&S  S&S       \nS&S~YSSY    S&S~YSY%b   S&S       S&S  S&S sSSs  S&S~YSY%b   S&S    S&S  S&S     S&S  S&S     S&S  S&S  S&S    S&S  S&S sSSs  \nS*S         S*S   `S%b  S*b       d*S  S*b `S%%  S*S   `S%b  S*S    S&S  S*S     S*S  S*S     S*S  S*S  S*S    S*S  S*b `S%%  \nS*S         S*S    S%S  S*S.     .S*S  S*S   S%  S*S    S%S  S*S    S*S  S*S     S*S  S*S     S*S  S*S  S*S    S*S  S*S   S%  \nS*S         S*S    S&S   SSSbs_sdSSS    SS_sSSS  S*S    S&S  S*S    S*S  S*S     S*S  S*S     S*S  S*S  S*S    S*S   SS_sSSS  \nS*S         S*S    SSS    YSSP~YSSY      Y~YSSY  S*S    SSS  SSS    S*S  SSS     S*S  SSS     S*S  S*S  S*S    SSS    Y~YSSY  \nSP          SP                                   SP                 SP           SP           SP   SP   SP                    \nY           Y                                    Y                  Y            Y            Y    Y    Y                     \n\n\n\nProgramming. Programming is the key. From a young age, I was captivated by it, especially C programming. Since then, I have never stopped learning, improving my skills, and exploring the depths of Computer Science. So, I earned a Bachelor’s degree in Computer Science and a Master’s degree in Data Science. Otherwise, I am a strong supporter of free information online, online anonymity, and free education. I believe everyone should have access to relevant study materials.\nSo, If you love low-level Programming, Deep Learning, and Mathematics, you are in the right place. Currently, I’m working with the latter two. So, I’m always on the lookout for new developments in deep learning, from new architectures to new ideas. In my free time, however, I also devote myself to the former, when I can!"
   }
 ]

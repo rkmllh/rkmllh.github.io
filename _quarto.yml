@@ -11,6 +11,8 @@ website:
         href: index.qmd
       - text: "About"
         href: about.qmd
+      - text: "Research"
+        href: research.qmd
       - text: "Contacts"
         href: contacts.qmd
 format:
