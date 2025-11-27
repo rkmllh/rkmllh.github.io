@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
 
+/* Ensures the full navigation bar remains visible and is not collapsed */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto !important;
+    }
+    .navbar-toggler {
+        display: none !important; /* Hides the hamburger menu icon */
+    }
+}
+
 .centered-text {
     /* 1. Rimuove il limite di larghezza! (occupare tutto lo spazio) */
     /* La larghezza sarà determinata dal tema Quarto/Bootstrap */
