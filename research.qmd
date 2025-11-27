@@ -41,11 +41,9 @@ css: style.css
    
 </pre>
 ```
-::: {.centered-text}
 Currently, I belong to [Cilab (Computational Intelligence Laboratory)](https://cilab.di.uniba.it/). 
 
 My current research focuses on **brain diseases**, with an emphasis on **graph-based computational approaches** for understanding its underlying mechanisms.  
 I am particularly interested in **state-of-the-art methods for graph construction in brain connectome representations**, including the development and evaluation of different graph-building strategies. I also explore **graph neural networks (GNNs)** for modeling brain connectivity, focusing on **general GNN applications**, as well as the **explainability and interpretability** of these models.  
 Additionally, I am fascinated by the **mathematical foundations of machine learning models**, combining theoretical insights with practical applications to enhance both performance and interpretability.  
 I am strongly convinced of the **role and importance of scientific research for humanity**, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being.
-:::
