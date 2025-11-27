@@ -23,22 +23,6 @@ I am strongly convinced of the **role and importance of scientific research for 
 
 :::
 
----
-
-## Skills & Tools
-
-| Category                        | Skills & Tools |
-|---------------------------------|----------------|
-| **Programming**                 | Python ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white), R ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white), C++ ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) |
-| **Data Science & ML**           | PyTorch ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white), TensorFlow ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white), scikit-learn ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white), GNN ![GNN](https://img.shields.io/badge/GNN-6f42c1?style=flat-square&logoColor=white) |
-| **Mathematics in ML**           | Linear algebra, probability, optimization, graph theory |
-| **Graph Analysis & Brain Networks** | Connectome construction, network metrics, visualization |
-| **Data Visualization**          | Matplotlib ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=matplotlib&logoColor=white), Seaborn ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square&logo=python&logoColor=white), Plotly ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) |
-| **Other**                        | Git, Linux, SQL |
-
----
-
-
 ## Selected Achievements
 
 - Published research papers in top-tier conferences and journals  
