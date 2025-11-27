@@ -25,19 +25,11 @@ I am strongly convinced of the **role and importance of scientific research for 
 
 ## Contacts
 
-::: {.columns}
-
-::: {.column width="50%"}
 - <a href="mailto:w.mangione@phd.uniba.it" style="text-decoration: none;">
     📧 w.mangione@phd.uniba.it
   </a>
-:::
 
-::: {.column width="50%"}
 - <a href="https://www.linkedin.com/in/walter-mangione-458817279" style="text-decoration: none;">
     <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="24px" style="vertical-align: middle;" /> 
     Walter Mangione, PhD
   </a>
-:::
-
-:::
