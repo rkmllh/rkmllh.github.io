@@ -9,7 +9,7 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Contact"
+      - text: "Contacts"
         href: index.qmd#contacts
 
 format:
