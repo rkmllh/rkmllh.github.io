@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&display=swap');
 
+/* Update your existing body block in style.css */
 body {
     font-family: 'Orbitron', sans-serif;
     background-color: #000000;
     color: #39FF14;
     margin: 0;
     padding: 0;
+    
+    /* CRITICAL FIX: Hides any content that goes beyond the screen width */
+    overflow-x: hidden; 
+}
+
+/* Ensure the pre block can't create its own scroll, but this will cut it off */
+pre {
+    max-width: 100%;
+    overflow-x: hidden !important; 
+    /* The !important may be needed to override theme styles */
 }
 
 .qmd-page, .qmd-page-content, .container, .container-fluid {
