@@ -16,15 +16,28 @@ Hi! I am **Walter Mangione**, a PhD student in **Computer Science and Mathematic
 
 I hold a **Bachelor’s degree in Computer Science** and a **Master’s degree in Data Science**, both _cum laude_.  
 
-My current research focuses on **Alzheimer’s disease**, with an emphasis on **graph-based computational approaches** for understanding its underlying mechanisms.  
+My current research focuses on **brain diseases**, with an emphasis on **graph-based computational approaches** for understanding its underlying mechanisms.  
 I am particularly interested in **state-of-the-art methods for graph construction in brain connectome representations**, including the development and evaluation of different graph-building strategies. I also explore **graph neural networks (GNNs)** for modeling brain connectivity, focusing on **general GNN applications**, as well as the **explainability and interpretability** of these models. Additionally, I am fascinated by the **mathematical foundations of machine learning models**, combining theoretical insights with practical applications to enhance both performance and interpretability.  
 I am strongly convinced of the **role and importance of scientific research for humanity**, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being.
 :::
 
 :::
 
-## Connect with Me
+## Contacts
 
-- [Research](research.qmd) – See my publications and current projects  
-- [CV](cv.qmd) – Download my full curriculum vitae  
-- [Contact](contact.qmd) – Get in touch via email or LinkedIn
+::: {.columns}
+
+::: {.column width="50%"}
+- <a href="mailto:w.mangione@phd.uniba.it" style="text-decoration: none;">
+    📧 w.mangione@phd.uniba.it
+  </a>
+:::
+
+::: {.column width="50%"}
+- <a href="https://www.linkedin.com/in/walter-mangione-458817279" style="text-decoration: none;">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="24px" style="vertical-align: middle;" /> 
+    Walter Mangione, PhD
+  </a>
+:::
+
+:::
