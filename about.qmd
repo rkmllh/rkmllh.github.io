@@ -10,8 +10,8 @@ format: html
 ---
 
 
-::: {.ascii-art-scale-wrapper}
-::: {.ascii-art-scale}
+```{=html}
+<pre style="font-family: monospace; background-color: transparent; border: none; padding: 0; margin: 0; line-height: 1.2; color: inherit;">
  .S_sSSs     .S_sSSs      sSSs_sSSs      sSSSSs   .S_sSSs     .S_SSSs     .S_SsS_S.    .S_SsS_S.    .S   .S_sSSs      sSSSSs  
 .SS~YS%%b   .SS~YS%%b    d%%SP~YS%%b    d%%%%SP  .SS~YS%%b   .SS~SSSSS   .SS~S*S~SS.  .SS~S*S~SS.  .SS  .SS~YS%%b    d%%%%SP  
 S%S   `S%b  S%S   `S%b  d%S'     `S%b  d%S'      S%S   `S%b  S%S   SSSS  S%S `Y' S%S  S%S `Y' S%S  S%S  S%S   `S%b  d%S'      
@@ -26,8 +26,10 @@ S*S         S*S    S&S   SSSbs_sdSSS    SS_sSSS  S*S    S&S  S*S    S*S  S*S    
 S*S         S*S    SSS    YSSP~YSSY      Y~YSSY  S*S    SSS  SSS    S*S  SSS     S*S  SSS     S*S  S*S  S*S    SSS    Y~YSSY  
 SP          SP                                   SP                 SP           SP           SP   SP   SP                    
 Y           Y                                    Y                  Y            Y            Y    Y    Y                     
-:::
-:::
+
+
+</pre>
+```
 
 Programming. Programming is the key. From a young age, I was captivated by it, especially C programming. Since then, I have never stopped learning, improving my skills, and exploring the depths of Computer Science. So, I earned a Bachelor's degree in Computer Science and a Master's degree in Data Science. 
 Otherwise, I am a strong supporter of free information online, online anonymity, and free education. I believe everyone should have access to relevant study materials.

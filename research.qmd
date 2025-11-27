@@ -7,8 +7,19 @@ css: style.css
 # My research
 
 ```{=html}
-<pre style="font-family: monospace; background-color: transparent; border: none; padding: 0; margin: 0; line-height: 1.2; color: inherit;">  
-       
+<pre style="
+  font-family: 'Courier New', Courier, monospace !important; 
+  white-space: pre !important; 
+  line-height: 1 !important; 
+  color: #39FF14; 
+  background-color: transparent;
+  margin: 0;
+  /* Mobile Scaling Fix: Transform is the only way to fit wide art */
+  transform: scale(0.95);
+  transform-origin: top center;
+  width: 1400px; 
+  display: block;
+">
                                                                           bbbbbbbb            
                                            iiii  lllllll                  b::::::b   
                                           i::::i l:::::l                  b::::::b         
