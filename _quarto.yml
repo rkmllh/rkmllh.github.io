@@ -9,10 +9,13 @@ website:
     left:
       - text: "Home"
         href: index.qmd
+      - text: "About"
+        href: about.qmd
       - text: "Contacts"
-        href: index.qmd#contacts
-
+        href: contacts.qmd
 format:
   html:
     theme: darkly
     css: styles.css
+    include-in-header: header.html
+

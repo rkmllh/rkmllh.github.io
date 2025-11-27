@@ -4,20 +4,34 @@
     "href": "index.html",
     "title": "Walter Mangione – PhD Student",
     "section": "",
-    "text": "Hi! I am Walter Mangione, a PhD student in Computer Science and Mathematics at Università degli Studi di Bari, Aldo Moro.\nI hold a Bachelor’s degree in Computer Science and a Master’s degree in Data Science, both cum laude.\nMy current research focuses on brain diseases, with an emphasis on graph-based computational approaches for understanding its underlying mechanisms.\nI am particularly interested in state-of-the-art methods for graph construction in brain connectome representations, including the development and evaluation of different graph-building strategies. I also explore graph neural networks (GNNs) for modeling brain connectivity, focusing on general GNN applications, as well as the explainability and interpretability of these models. Additionally, I am fascinated by the mathematical foundations of machine learning models, combining theoretical insights with practical applications to enhance both performance and interpretability.\nI am strongly convinced of the role and importance of scientific research for humanity, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being."
+    "text": ",o888888o.     8 8888 8 8888                  .8.          8 888888888o   \n         8888     `88.   8 8888 8 8888                 .888.         8 8888    `88. \n      ,8 8888       `8.  8 8888 8 8888                :88888.        8 8888     `88 \n      88 8888            8 8888 8 8888               . `88888.       8 8888     ,88 \n      88 8888            8 8888 8 8888              .8. `88888.      8 8888.   ,88' \n      88 8888            8 8888 8 8888             .8`8. `88888.     8 8888888888   \n      88 8888            8 8888 8 8888            .8' `8. `88888.    8 8888    `88. \n      `8 8888       .8'  8 8888 8 8888           .8'   `8. `88888.   8 8888      88 \n         8888     ,88'   8 8888 8 8888          .888888888. `88888.  8 8888    ,88' \n          `8888888P'     8 8888 8 888888888888 .8'       `8. `88888. 8 888888888P\n                                                  \n\nHi! I am Walter Mangione, a PhD student in Computer Science and Mathematics at Università degli Studi di Bari, Aldo Moro.\nI hold a Bachelor’s degree in Computer Science and a Master’s degree in Data Science, both cum laude.\nFrom this page, you can:\n\n🔍 Discover more about me\n📧 Reach me"
   },
   {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Walter Mangione – PhD Student",
+    "objectID": "contacts.html",
+    "href": "contacts.html",
+    "title": "Walter Mangione",
     "section": "",
-    "text": "Hi! I am Walter Mangione, a PhD student in Computer Science and Mathematics at Università degli Studi di Bari, Aldo Moro.\nI hold a Bachelor’s degree in Computer Science and a Master’s degree in Data Science, both cum laude.\nMy current research focuses on brain diseases, with an emphasis on graph-based computational approaches for understanding its underlying mechanisms.\nI am particularly interested in state-of-the-art methods for graph construction in brain connectome representations, including the development and evaluation of different graph-building strategies. I also explore graph neural networks (GNNs) for modeling brain connectivity, focusing on general GNN applications, as well as the explainability and interpretability of these models. Additionally, I am fascinated by the mathematical foundations of machine learning models, combining theoretical insights with practical applications to enhance both performance and interpretability.\nI am strongly convinced of the role and importance of scientific research for humanity, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being."
+    "text": "📧 w.mangione@phd.uniba.it \n  Walter Mangione, PhD"
   },
   {
-    "objectID": "index.html#contacts",
-    "href": "index.html#contacts",
-    "title": "Walter Mangione – PhD Student",
-    "section": "Contacts",
-    "text": "Contacts\n\n 📧 w.mangione@phd.uniba.it \n  Walter Mangione, PhD"
+    "objectID": "contacts.html#contacts",
+    "href": "contacts.html#contacts",
+    "title": "Walter Mangione",
+    "section": "",
+    "text": "📧 w.mangione@phd.uniba.it \n  Walter Mangione, PhD"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me – Walter Mangione",
+    "section": "",
+    "text": "My current research focuses on brain diseases, with an emphasis on graph-based computational approaches for understanding its underlying mechanisms.\nI am particularly interested in state-of-the-art methods for graph construction in brain connectome representations, including the development and evaluation of different graph-building strategies. I also explore graph neural networks (GNNs) for modeling brain connectivity, focusing on general GNN applications, as well as the explainability and interpretability of these models.\nAdditionally, I am fascinated by the mathematical foundations of machine learning models, combining theoretical insights with practical applications to enhance both performance and interpretability.\nI am strongly convinced of the role and importance of scientific research for humanity, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being."
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "About Me – Walter Mangione",
+    "section": "",
+    "text": "My current research focuses on brain diseases, with an emphasis on graph-based computational approaches for understanding its underlying mechanisms.\nI am particularly interested in state-of-the-art methods for graph construction in brain connectome representations, including the development and evaluation of different graph-building strategies. I also explore graph neural networks (GNNs) for modeling brain connectivity, focusing on general GNN applications, as well as the explainability and interpretability of these models.\nAdditionally, I am fascinated by the mathematical foundations of machine learning models, combining theoretical insights with practical applications to enhance both performance and interpretability.\nI am strongly convinced of the role and importance of scientific research for humanity, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being."
   }
 ]

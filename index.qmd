@@ -3,33 +3,29 @@ title: "Walter Mangione – PhD Student"
 format: html
 ---
 
-## About Me
+```{=html}
+<pre style="font-family: monospace; background-color: transparent; border: none; padding: 0; margin: 0; line-height: 1.2; color: inherit;">
+                                                  
+                                                                              
+          ,o888888o.     8 8888 8 8888                  .8.          8 888888888o   
+         8888     `88.   8 8888 8 8888                 .888.         8 8888    `88. 
+      ,8 8888       `8.  8 8888 8 8888                :88888.        8 8888     `88 
+      88 8888            8 8888 8 8888               . `88888.       8 8888     ,88 
+      88 8888            8 8888 8 8888              .8. `88888.      8 8888.   ,88' 
+      88 8888            8 8888 8 8888             .8`8. `88888.     8 8888888888   
+      88 8888            8 8888 8 8888            .8' `8. `88888.    8 8888    `88. 
+      `8 8888       .8'  8 8888 8 8888           .8'   `8. `88888.   8 8888      88 
+         8888     ,88'   8 8888 8 8888          .888888888. `88888.  8 8888    ,88' 
+          `8888888P'     8 8888 8 888888888888 .8'       `8. `88888. 8 888888888P
+                                                  
+</pre>
+```
 
-::: {.columns}
-
-::: {.column width="30%"}
-![](assets/images/profile.jpg){ width=100% style="border-radius: 10px;" }
-:::
-
-::: {.column width="70%"}
 Hi! I am **Walter Mangione**, a PhD student in **Computer Science and Mathematics** at **Università degli Studi di Bari, Aldo Moro**.
 
-I hold a **Bachelor’s degree in Computer Science** and a **Master’s degree in Data Science**, both _cum laude_.  
+I hold a **Bachelor’s degree in Computer Science** and a **Master’s degree in Data Science**, both _cum laude_.
+                                    
+From this page, you can:  
 
-My current research focuses on **brain diseases**, with an emphasis on **graph-based computational approaches** for understanding its underlying mechanisms.  
-I am particularly interested in **state-of-the-art methods for graph construction in brain connectome representations**, including the development and evaluation of different graph-building strategies. I also explore **graph neural networks (GNNs)** for modeling brain connectivity, focusing on **general GNN applications**, as well as the **explainability and interpretability** of these models. Additionally, I am fascinated by the **mathematical foundations of machine learning models**, combining theoretical insights with practical applications to enhance both performance and interpretability.  
-I am strongly convinced of the **role and importance of scientific research for humanity**, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being.
-:::
-
-:::
-
-## Contacts
-
-- <a href="mailto:w.mangione@phd.uniba.it" style="text-decoration: none;">
-    📧 w.mangione@phd.uniba.it
-  </a>
-
-- <a href="https://www.linkedin.com/in/walter-mangione-458817279" style="text-decoration: none;">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" width="24px" style="vertical-align: middle;" /> 
-    Walter Mangione, PhD
-  </a>
+- 🔍 [Discover more about me](about.qmd)
+- 📧 [Reach me](contacts.qmd)  
