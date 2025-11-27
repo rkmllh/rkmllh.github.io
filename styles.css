@@ -53,6 +53,19 @@ body {
     }
 }
 
+/* --- Centering Text Block --- */
+
+.centered-text {
+    /* Aligns all inline content (text, links) to the center */
+    text-align: center; 
+    
+    /* Optional: Limit the width of the text block for readability
+       (e.g., max 700px) and center the block itself */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .qmd-page, .qmd-page-content, .container, .container-fluid {
     max-width: 100% !important; /* occupa tutta la larghezza */
     width: 100% !important;
