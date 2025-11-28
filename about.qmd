@@ -47,7 +47,7 @@ $$ |                          \$$$$$$  |                                        
 </div>
 
 Programming. Programming is the key. From a young age, I was captivated by it, especially C programming. Since then, I have never stopped learning, improving my skills, and exploring the depths of Computer Science. So, I earned a Bachelor's degree in Computer Science and a Master's degree in Data Science. 
-So, If you love low-level Programming, Deep Learning, and Mathematics, you are in the right place. Currently, I'm working with the latter two. So, I'm always on the lookout for new developments in deep learning, from new architectures to new ideas. In my free time, however, I also devote myself to the former, when I can!
+So, If you love low-level Programming, Deep Learning and Mathematics, you are in the right place. Currently, I'm working with the latter two. So, I'm always on the lookout for new developments in deep learning, from new architectures to new ideas. In my free time, however, I also devote myself to the former, when I can!
 Among the books that have most influenced me and brought me ever closer to Computer Science, I can't help but mention Reverse Engineering for Beginners by Dennis Yurichev, The C Programming Language by Ritchie and Kernighan, Understanding Deep Learning by Simon J.D. Prince, Hacking: The Art of Exploitation by Jon Erickson, and, finally, Machine Learning by Tom Mitchell.
 Although they cover fundamentally different topics in Computer Science, I can't help but reread them whenever I feel like it.
 
