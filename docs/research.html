@@ -132,9 +132,11 @@ ul.task-list li input[type="checkbox"] {
 <section id="my-research" class="level1" style="text-align: center; width: 100%; margin: 0 auto;">
 <h1>My research</h1>
 <div style="
-  overflow-x: auto; /* Allows horizontal scrolling on smartphones */
-  width: 100%;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /* Use a media query in the style sheet (style.css) 
+     or calculate the scale factor if necessary. 
+     For inline styling, we'll ensure the pre tag is centered and scaled. */
 ">
 <pre style="
   font-family: 'Courier New', Courier, monospace !important;
@@ -142,37 +144,42 @@ ul.task-list li input[type="checkbox"] {
   line-height: 1 !important;
   color: #39FF14;
   background-color: transparent;
-  /* Use max-width and margin auto for robust centering of the PRE element */
-  max-width: fit-content;
-  margin: 0 auto; 
+  margin: 0;
+  
+  /* The ASCII art is very wide (approx 140 characters). 
+     For a 360px wide phone screen, we need to scale it down heavily. */
+  transform: scale(0.95); /* Aggressively scale down to fit on narrow screens */
+  transform-origin: top center; /* Ensure scaling is anchored to the center top */
+  width: 1400px; /* Keep original width for calculation but allow it to scale down */
   display: block; 
-  /* Removing transform: scale() to keep art legible */
-">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;bbbbbbbb&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; iiii&nbsp; lllllll&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b::::::b&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;i::::i l:::::l&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b::::::b&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; iiii&nbsp; l:::::l&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b::::::b&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; l:::::l&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b:::::b&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cccccccccccccccciiiiiii&nbsp; l::::l&nbsp; &nbsp;aaaaaaaaaaaaa&nbsp; &nbsp;b:::::bbbbbbbbb&nbsp; &nbsp;&nbsp;
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cc:::::::::::::::ci:::::i&nbsp; l::::l&nbsp; &nbsp;a::::::::::::a&nbsp; b::::::::::::::bb&nbsp;&nbsp;
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c:::::::::::::::::c i::::i&nbsp; l::::l&nbsp; &nbsp;aaaaaaaaa:::::a b::::::::::::::::b&nbsp;
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c:::::::cccccc:::::c i::::i&nbsp; l::::l&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a::::a b:::::bbbbb:::::::b
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c::::::c&nbsp; &nbsp; &nbsp;ccccccc i::::i&nbsp; l::::l&nbsp; &nbsp; &nbsp;aaaaaaa:::::a b:::::b&nbsp; &nbsp; b::::::b
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c:::::c&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; i::::i&nbsp; l::::l&nbsp; &nbsp;aa::::::::::::a b:::::b&nbsp; &nbsp; &nbsp;b:::::b
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c:::::c&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; i::::i&nbsp; l::::l&nbsp; a::::aaaa::::::a b:::::b&nbsp; &nbsp; &nbsp;b:::::b
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c::::::c&nbsp; &nbsp; &nbsp;ccccccc i::::i&nbsp; l::::l a::::a&nbsp; &nbsp; a:::::a b:::::b&nbsp; &nbsp; &nbsp;b:::::b
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; c:::::::cccccc:::::ci::::::il::::::la::::a&nbsp; &nbsp; a:::::a b:::::bbbbbb::::::b
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;c:::::::::::::::::ci::::::il::::::la:::::aaaa::::::a b::::::::::::::::b&nbsp;
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cc:::::::::::::::ci::::::il::::::l a::::::::::aa:::ab:::::::::::::::b&nbsp;&nbsp;
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cccccccccccccccciiiiiiiillllllll&nbsp; aaaaaaaaaa&nbsp; aaaabbbbbbbbbbbbbbbb&nbsp; &nbsp;
-&nbsp; &nbsp;&nbsp;
+  /* Add padding to ensure the top of the pre-tag's content aligns visually */
+  padding-bottom: 10px; 
+">                                                                         
+                                                     bbbbbbbb
+                      iiii  lllllll                  b::::::b
+                     i::::i l:::::l                  b::::::b
+                      iiii  l:::::l                  b::::::b
+                            l:::::l                   b:::::b 
+    cccccccccccccccciiiiiii  l::::l   aaaaaaaaaaaaa   b:::::bbbbbbbbb    
+  cc:::::::::::::::ci:::::i  l::::l   a::::::::::::a  b::::::::::::::bb
+ c:::::::::::::::::c i::::i  l::::l   aaaaaaaaa:::::a b::::::::::::::::b
+c:::::::cccccc:::::c i::::i  l::::l            a::::a b:::::bbbbb:::::::b
+c::::::c     ccccccc i::::i  l::::l     aaaaaaa:::::a b:::::b    b::::::b
+c:::::c              i::::i  l::::l   aa::::::::::::a b:::::b     b:::::b
+c:::::c              i::::i  l::::l  a::::aaaa::::::a b:::::b     b:::::b
+c::::::c     ccccccc i::::i  l::::l a::::a    a:::::a b:::::b     b:::::b
+c:::::::cccccc:::::ci::::::il::::::la::::a    a:::::a b:::::bbbbbb::::::b
+ c:::::::::::::::::ci::::::il::::::la:::::aaaa::::::a b::::::::::::::::b
+  cc:::::::::::::::ci::::::il::::::l a::::::::::aa:::ab:::::::::::::::b
+    cccccccccccccccciiiiiiiillllllll  aaaaaaaaaa  aaaabbbbbbbbbbbbbbbb
+
 </pre>
 </div>
 <p>Currently, I belong to <a href="https://cilab.di.uniba.it/">Cilab (Computational Intelligence Laboratory)</a>.</p>
-<p>My current research focuses on <strong>brain diseases</strong> 🧠, with an emphasis on <strong>graph-based computational approaches</strong> for understanding its underlying mechanisms.</p>
+<p>My current research focuses on <strong>brain diseases</strong>, with an emphasis on <strong>graph-based computational approaches</strong> for understanding its underlying mechanisms.</p>
 <p>I am particularly interested in <strong>state-of-the-art methods for graph construction in brain connectome representations</strong></p>
 <p>[Image of brain connectome graph] , including the development and evaluation of different graph-building strategies.</p>
-<p>I also explore <strong>graph neural networks (GNNs)</strong> for modeling brain connectivity, focusing on <strong>general GNN applications</strong> as well as the <strong>explainability and interpretability</strong> of these models</p>
-<p>[Image of a Graph Neural Network architecture] .</p>
+<p>I also explore <strong>graph neural networks (GNNs)</strong> for modeling brain connectivity, focusing on <strong>general GNN applications</strong> as well as the <strong>explainability and interpretability</strong> of these models .</p>
 <p>Additionally, I am fascinated by the <strong>mathematical foundations of machine learning</strong>, combining theoretical insights with practical applications to enhance both performance and interpretability.</p>
 <p>I am strongly convinced of the <strong>role and importance of scientific research for humanity</strong>, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being.</p>
 </section>
