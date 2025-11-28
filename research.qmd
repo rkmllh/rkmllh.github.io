@@ -9,11 +9,9 @@ css: style.css
 # My research
 
 <div style="
-  display: flex;
-  justify-content: center;
-  /* Use a media query in the style sheet (style.css) 
-     or calculate the scale factor if necessary. 
-     For inline styling, we'll ensure the pre tag is centered and scaled. */
+  overflow-x: auto; /* Allows horizontal scrolling on smartphones */
+  width: 100%;
+  margin: 0 auto;
 ">
 <pre style="
   font-family: 'Courier New', Courier, monospace !important;
@@ -21,16 +19,11 @@ css: style.css
   line-height: 1 !important;
   color: #39FF14;
   background-color: transparent;
-  margin: 0;
-  
-  /* The ASCII art is very wide (approx 140 characters). 
-     For a 360px wide phone screen, we need to scale it down heavily. */
-  transform: scale(0.25); /* Aggressively scale down to fit on narrow screens */
-  transform-origin: top center; /* Ensure scaling is anchored to the center top */
-  width: 1400px; /* Keep original width for calculation but allow it to scale down */
+  /* Use max-width and margin auto for robust centering of the PRE element */
+  max-width: fit-content;
+  margin: 0 auto; 
   display: block; 
-  /* Add padding to ensure the top of the pre-tag's content aligns visually */
-  padding-bottom: 25px; 
+  /* Removing transform: scale() to keep art legible */
 ">
                                                                                bbbbbbbb            
                                                 iiii  lllllll                  b::::::b            
@@ -52,6 +45,7 @@ css: style.css
     
 </pre>
 </div>
+
 Currently, I belong to [Cilab (Computational Intelligence Laboratory)](https://cilab.di.uniba.it/).
 
 My current research focuses on **brain diseases** 🧠, with an emphasis on **graph-based computational approaches** for understanding its underlying mechanisms.

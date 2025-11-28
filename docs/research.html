@@ -132,11 +132,9 @@ ul.task-list li input[type="checkbox"] {
 <section id="my-research" class="level1" style="text-align: center; width: 100%; margin: 0 auto;">
 <h1>My research</h1>
 <div style="
-  display: flex;
-  justify-content: center;
-  /* Use a media query in the style sheet (style.css) 
-     or calculate the scale factor if necessary. 
-     For inline styling, we'll ensure the pre tag is centered and scaled. */
+  overflow-x: auto; /* Allows horizontal scrolling on smartphones */
+  width: 100%;
+  margin: 0 auto;
 ">
 <pre style="
   font-family: 'Courier New', Courier, monospace !important;
@@ -144,16 +142,11 @@ ul.task-list li input[type="checkbox"] {
   line-height: 1 !important;
   color: #39FF14;
   background-color: transparent;
-  margin: 0;
-  
-  /* The ASCII art is very wide (approx 140 characters). 
-     For a 360px wide phone screen, we need to scale it down heavily. */
-  transform: scale(0.25); /* Aggressively scale down to fit on narrow screens */
-  transform-origin: top center; /* Ensure scaling is anchored to the center top */
-  width: 1400px; /* Keep original width for calculation but allow it to scale down */
+  /* Use max-width and margin auto for robust centering of the PRE element */
+  max-width: fit-content;
+  margin: 0 auto; 
   display: block; 
-  /* Add padding to ensure the top of the pre-tag's content aligns visually */
-  padding-bottom: 25px; 
+  /* Removing transform: scale() to keep art legible */
 ">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;bbbbbbbb&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; iiii&nbsp; lllllll&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b::::::b&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;i::::i l:::::l&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b::::::b&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
