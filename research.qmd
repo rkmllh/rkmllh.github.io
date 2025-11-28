@@ -1,18 +1,17 @@
-<div style="text-align: center;">
+---
+format: html
+page-layout: full
+css: style.css
+---
+
+<div style="text-align: center; width: 100%; margin: 0 auto;">
 
 # My research
 
 <div style="
-  font-family: 'Courier New', Courier, monospace !important;
-  white-space: pre !important;
-  line-height: 1 !important;
-  color: #39FF14;
-  background-color: transparent;
-  margin: 0 auto;
-  transform: scale(0.95);
-  transform-origin: center;
-  width: 1400px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  overflow-x: auto; /* Allows scrolling if the ASCII art is wider than the screen */
 ">
 <pre style="
   font-family: 'Courier New', Courier, monospace !important;
@@ -20,11 +19,12 @@
   line-height: 1 !important;
   color: #39FF14;
   background-color: transparent;
-  margin: 0 auto;
+  margin: 0; /* Remove margin here to rely on parent centering */
   transform: scale(0.95);
   transform-origin: center;
-  width: 1400px;
-  display: block;
+  /* Max width ensures it doesn't try to occupy an unnecessarily large fixed space */
+  max-width: 100%; 
+  display: block; 
 ">
                                                                                bbbbbbbb            
                                                 iiii  lllllll                  b::::::b            
@@ -46,8 +46,6 @@
     
 </pre>
 </div>
----
-
 Currently, I belong to [Cilab (Computational Intelligence Laboratory)](https://cilab.di.uniba.it/).
 
 My current research focuses on **brain diseases** 🧠, with an emphasis on **graph-based computational approaches** for understanding its underlying mechanisms.
