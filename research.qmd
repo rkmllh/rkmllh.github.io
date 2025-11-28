@@ -11,7 +11,9 @@ css: style.css
 <div style="
   display: flex;
   justify-content: center;
-  overflow-x: auto; /* Allows scrolling if the ASCII art is wider than the screen */
+  /* Use a media query in the style sheet (style.css) 
+     or calculate the scale factor if necessary. 
+     For inline styling, we'll ensure the pre tag is centered and scaled. */
 ">
 <pre style="
   font-family: 'Courier New', Courier, monospace !important;
@@ -19,12 +21,16 @@ css: style.css
   line-height: 1 !important;
   color: #39FF14;
   background-color: transparent;
-  margin: 0; /* Remove margin here to rely on parent centering */
-  transform: scale(0.95);
-  transform-origin: center;
-  /* Max width ensures it doesn't try to occupy an unnecessarily large fixed space */
-  max-width: 100%; 
+  margin: 0;
+  
+  /* The ASCII art is very wide (approx 140 characters). 
+     For a 360px wide phone screen, we need to scale it down heavily. */
+  transform: scale(0.25); /* Aggressively scale down to fit on narrow screens */
+  transform-origin: top center; /* Ensure scaling is anchored to the center top */
+  width: 1400px; /* Keep original width for calculation but allow it to scale down */
   display: block; 
+  /* Add padding to ensure the top of the pre-tag's content aligns visually */
+  padding-bottom: 25px; 
 ">
                                                                                bbbbbbbb            
                                                 iiii  lllllll                  b::::::b            
