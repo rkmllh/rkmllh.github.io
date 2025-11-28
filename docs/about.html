@@ -129,42 +129,47 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="who-am-i" class="level1 centered-text">
-<h1>Who am I?</h1>
-</section>
-<div class="ascii-wrapper">
+<section id="who-am-i" class="level1" style="text-align: center; width: 100%; margin: 0 auto;">
+<h1>Who Am I?</h1>
+<div style="
+  display: flex;
+  justify-content: center;
+  /* Use a media query in the style sheet (style.css) 
+     or calculate the scale factor if necessary. 
+     For inline styling, we'll ensure the pre tag is centered and scaled. */
+">
 <pre style="
   font-family: 'Courier New', Courier, monospace !important;
   white-space: pre !important;
   line-height: 1 !important;
   color: #39FF14;
   background-color: transparent;
-  margin: 0 auto;
-  transform: scale(0.95);
-  transform-origin: center;
-  width: 1400px;
-  display: block;
-">     .S_sSSs     .S_sSSs      sSSs_sSSs      sSSSSs   .S_sSSs     .S_SSSs     .S_SsS_S.    .S_SsS_S.    .S   .S_sSSs      sSSSSs  
-    .SS~YS%%b   .SS~YS%%b    d%%SP~YS%%b    d%%%%SP  .SS~YS%%b   .SS~SSSSS   .SS~S*S~SS.  .SS~S*S~SS.  .SS  .SS~YS%%b    d%%%%SP  
-    S%S   `S%b  S%S   `S%b  d%S'     `S%b  d%S'      S%S   `S%b  S%S   SSSS  S%S `Y' S%S  S%S `Y' S%S  S%S  S%S   `S%b  d%S'      
-    S%S    S%S  S%S    S%S  S%S       S%S  S%S       S%S    S%S  S%S    S%S  S%S     S%S  S%S     S%S  S%S  S%S    S%S  S%S       
-    S%S    d*S  S%S    d*S  S&amp;S       S&amp;S  S&amp;S       S%S    d*S  S%S SSSS%S  S%S     S%S  S%S     S%S  S&amp;S  S%S    S&amp;S  S&amp;S       
-    S&amp;S   .S*S  S&amp;S   .S*S  S&amp;S       S&amp;S  S&amp;S       S&amp;S   .S*S  S&amp;S  SSS%S  S&amp;S     S&amp;S  S&amp;S     S&amp;S  S&amp;S  S&amp;S    S&amp;S  S&amp;S       
-    S&amp;S_sdSSS   S&amp;S_sdSSS   S&amp;S       S&amp;S  S&amp;S       S&amp;S_sdSSS   S&amp;S    S&amp;S  S&amp;S     S&amp;S  S&amp;S     S&amp;S  S&amp;S  S&amp;S    S&amp;S  S&amp;S       
-    S&amp;S~YSSY    S&amp;S~YSY%b   S&amp;S       S&amp;S  S&amp;S sSSs  S&amp;S~YSY%b   S&amp;S    S&amp;S  S&amp;S     S&amp;S  S&amp;S     S&amp;S  S&amp;S  S&amp;S    S&amp;S  S&amp;S sSSs  
-    S*S         S*S   `S%b  S*b       d*S  S*b `S%%  S*S   `S%b  S*S    S&amp;S  S*S     S*S  S*S     S*S  S*S  S*S    S*S  S*b `S%%  
-    S*S         S*S    S%S  S*S.     .S*S  S*S   S%  S*S    S%S  S*S    S*S  S*S     S*S  S*S     S*S  S*S  S*S    S*S  S*S   S%  
-    S*S         S*S    S&amp;S   SSSbs_sdSSS    SS_sSSS  S*S    S&amp;S  S*S    S*S  S*S     S*S  S*S     S*S  S*S  S*S    S*S   SS_sSSS  
-    S*S         S*S    SSS    YSSP~YSSY      Y~YSSY  S*S    SSS  SSS    S*S  SSS     S*S  SSS     S*S  S*S  S*S    SSS    Y~YSSY  
-    SP          SP                                   SP                 SP           SP           SP   SP   SP                    
-    Y           Y                                    Y                  Y            Y            Y    Y    Y                     
-
+  margin: 0;
+  
+  /* The ASCII art is very wide (approx 140 characters). 
+     For a 360px wide phone screen, we need to scale it down heavily. */
+  transform: scale(0.95); /* Aggressively scale down to fit on narrow screens */
+  transform-origin: top center; /* Ensure scaling is anchored to the center top */
+  width: 1400px; /* Keep original width for calculation but allow it to scale down */
+  display: block; 
+  /* Add padding to ensure the top of the pre-tag's content aligns visually */
+  padding-bottom: 10px; 
+">                                                                                       $$\                     
+                                                                                       \__|                    
+ $$$$$$\   $$$$$$\   $$$$$$\   $$$$$$\   $$$$$$\  $$$$$$\  $$$$$$\$$$$\  $$$$$$\$$$$\  $$\ $$$$$$$\   $$$$$$\  
+$$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\ $$  __$$\ \____$$\ $$  _$$  _$$\ $$  _$$  _$$\ $$ |$$  __$$\ $$  __$$\ 
+$$ /  $$ |$$ |  \__|$$ /  $$ |$$ /  $$ |$$ |  \__|$$$$$$$ |$$ / $$ / $$ |$$ / $$ / $$ |$$ |$$ |  $$ |$$ /  $$ |
+$$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |     $$  __$$ |$$ | $$ | $$ |$$ | $$ | $$ |$$ |$$ |  $$ |$$ |  $$ |
+$$$$$$$  |$$ |      \$$$$$$  |\$$$$$$$ |$$ |     \$$$$$$$ |$$ | $$ | $$ |$$ | $$ | $$ |$$ |$$ |  $$ |\$$$$$$$ |
+$$  ____/ \__|       \______/  \____$$ |\__|      \_______|\__| \__| \__|\__| \__| \__|\__|\__|  \__| \____$$ |
+$$ |                          $$\   $$ |                                                             $$\   $$ |
+$$ |                          \$$$$$$  |                                                             \$$$$$$  |
+\__|                           \______/                                                               \______/ 
 </pre>
 </div>
-<div class="centered-text">
 <p>Programming. Programming is the key. From a young age, I was captivated by it, especially C programming. Since then, I have never stopped learning, improving my skills, and exploring the depths of Computer Science. So, I earned a Bachelor’s degree in Computer Science and a Master’s degree in Data Science. Otherwise, I am a strong supporter of free information online, online anonymity, and free education. I believe everyone should have access to relevant study materials.</p>
 <p>So, If you love low-level Programming, Deep Learning, and Mathematics, you are in the right place. Currently, I’m working with the latter two. So, I’m always on the lookout for new developments in deep learning, from new architectures to new ideas. In my free time, however, I also devote myself to the former, when I can!</p>
-</div>
+</section>
 
 
 
