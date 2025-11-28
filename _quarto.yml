@@ -15,6 +15,7 @@ website:
         href: research.qmd
       - text: "Contacts"
         href: contacts.qmd
+        
 format:
   html:
     theme: darkly
