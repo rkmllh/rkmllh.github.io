@@ -31,28 +31,28 @@ css: style.css
   display: block; 
   /* Add padding to ensure the top of the pre-tag's content aligns visually */
   padding-bottom: 10px; 
-">
-                                                                         
-                                                     bbbbbbbb
-                      iiii  lllllll                  b::::::b
-                     i::::i l:::::l                  b::::::b
-                      iiii  l:::::l                  b::::::b
-                            l:::::l                   b:::::b 
+">                                                   
+                                                     bbbbbbbb            
+                      iiii  lllllll                  b::::::b            
+                     i::::i l:::::l                  b::::::b            
+                      iiii  l:::::l                  b::::::b            
+                            l:::::l                   b:::::b            
     cccccccccccccccciiiiiii  l::::l   aaaaaaaaaaaaa   b:::::bbbbbbbbb    
-  cc:::::::::::::::ci:::::i  l::::l   a::::::::::::a  b::::::::::::::bb
- c:::::::::::::::::c i::::i  l::::l   aaaaaaaaa:::::a b::::::::::::::::b
+  cc:::::::::::::::ci:::::i  l::::l   a::::::::::::a  b::::::::::::::bb  
+ c:::::::::::::::::c i::::i  l::::l   aaaaaaaaa:::::a b::::::::::::::::b 
 c:::::::cccccc:::::c i::::i  l::::l            a::::a b:::::bbbbb:::::::b
 c::::::c     ccccccc i::::i  l::::l     aaaaaaa:::::a b:::::b    b::::::b
 c:::::c              i::::i  l::::l   aa::::::::::::a b:::::b     b:::::b
 c:::::c              i::::i  l::::l  a::::aaaa::::::a b:::::b     b:::::b
 c::::::c     ccccccc i::::i  l::::l a::::a    a:::::a b:::::b     b:::::b
 c:::::::cccccc:::::ci::::::il::::::la::::a    a:::::a b:::::bbbbbb::::::b
- c:::::::::::::::::ci::::::il::::::la:::::aaaa::::::a b::::::::::::::::b
-  cc:::::::::::::::ci::::::il::::::l a::::::::::aa:::ab:::::::::::::::b
-    cccccccccccccccciiiiiiiillllllll  aaaaaaaaaa  aaaabbbbbbbbbbbbbbbb
+ c:::::::::::::::::ci::::::il::::::la:::::aaaa::::::a b::::::::::::::::b 
+  cc:::::::::::::::ci::::::il::::::l a::::::::::aa:::ab:::::::::::::::b  
+    cccccccccccccccciiiiiiiillllllll  aaaaaaaaaa  aaaabbbbbbbbbbbbbbbb   
 
 </pre>
 </div>
+
 Currently, I belong to [Cilab (Computational Intelligence Laboratory)](https://cilab.di.uniba.it/).
 
 My current research focuses on **brain diseases**, with an emphasis on **graph-based computational approaches** for understanding its underlying mechanisms.
@@ -62,7 +62,8 @@ I am particularly interested in **state-of-the-art methods for graph constructio
 [Image of brain connectome graph]
 , including the development and evaluation of different graph-building strategies.
 
-I also explore **graph neural networks (GNNs)** for modeling brain connectivity, focusing on **general GNN applications** as well as the **explainability and interpretability** of these models .
+I also explore **graph neural networks (GNNs)** for modeling brain connectivity, focusing on **general GNN applications** as well as the **explainability and interpretability** of these models 
+.
 
 Additionally, I am fascinated by the **mathematical foundations of machine learning**, combining theoretical insights with practical applications to enhance both performance and interpretability.
 
