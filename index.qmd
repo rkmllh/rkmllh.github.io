@@ -155,7 +155,7 @@ Finally, I am fascinated by the **mathematical foundations of machine learning**
 
 <div class="timeline-pretty">
 
-- **Oct 2025:** Started PhD in Computer Science and Mathematics at Università degli Studi di Bari Aldo Moro
+- **Oct 2025:** Started PhD in Computer Science and Mathematics at Università degli Studi di Bari Aldo Moro.
 - **Jul 2025:** Completed my M.Sc. in Data Science. My thesis explored graph-based representations of the human brain aimed at enhancing the semantic richness and discriminative power of models used in Alzheimer's disease classification.
 - **Dec 2023:** Graduated with a B.Sc. in Computer Science. My thesis in Cybersecurity involved the design and implementation of a proof-of-concept Windows-based malware to analyze system vulnerabilities and defensive mechanisms.
 
