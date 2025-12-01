@@ -123,7 +123,6 @@ body {
 <div class="right-menu">
 <strong>On this page:</strong><br>
 <a href="#bio" style="text-decoration: none; color: #0080ffff; display: block;">About Me</a>
-<a href="#research_interest" style="text-decoration: none; color: #0080ffff; display: block;">Research Interests</a>
 <a href="#research" style="text-decoration: none; color: #0080ffff; display: block;">My Research</a>
 <a href="#news--updates" style="text-decoration: none; color: #0080ffff; display: block;">News</a>
 <a href="#publications" style="text-decoration: none; color: #0080ffff; display: block;">Publications</a>
