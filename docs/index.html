@@ -37,10 +37,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-32907b149234791e881025377bb322b9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-b230179c563b4bf2ed3c2a9876c27e97.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-dd8da23e6246289d98160f9af9b361b5.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-b230179c563b4bf2ed3c2a9876c27e97.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,14 +72,175 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&amp;display=swap" rel="stylesheet">
-<meta name="viewport" content="width=1200, initial-scale=0.3">
+<style>html{ scroll-behavior: smooth; }</style>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -94,25 +259,12 @@ ul.task-list li input[type="checkbox"] {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Home</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
-<span class="menu-text">Research</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contacts.html"> 
-<span class="menu-text">Contacts</span></a>
-  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -124,6 +276,7 @@ ul.task-list li input[type="checkbox"] {
     
 <!-- main -->
 <main class="content" id="quarto-document-content">
+
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -144,20 +297,160 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Hi! I am <strong>Walter Mangione</strong>, a PhD student in <strong>Computer Science and Mathematics</strong> at <strong>Università degli Studi di Bari, Aldo Moro</strong>.</p>
-<p>I hold a <strong>Bachelor’s degree in Computer Science</strong> and a <strong>Master’s degree in Data Science</strong>, both <em>cum laude</em>.</p>
-<p>From this page, you can:</p>
+<style>
+  /* This pushes the main text to the right so it doesn't hide behind the sidebar */
+  body {
+    padding-left: 320px !important; /* 300px sidebar + 20px gap */
+  }
+  
+  /* On mobile/small screens, reset the layout */
+  @media (max-width: 900px) {
+    body { padding-left: 0 !important; }
+    .my-sidebar { 
+      position: relative !important; 
+      width: 100% !important; 
+      height: auto !important;
+      padding: 20px !important;
+    }
+  }
+</style>
+<div class="my-sidebar" style="position: fixed; top: 0; bottom: 0; left: 0; width: 350px; 
+            background-color: #0c4a4dff; z-index: 5; padding: 80px 20px 40px 20px; 
+            color: #ffffff; display: flex; flex-direction: column; 
+            align-items: center; overflow-y: auto;">
+
+  <img src="images/image.png" alt="Walter Mangione" style="width: 160px; height: 160px; object-fit: cover; border-radius: 50%; 
+              border: 3px solid #ffffff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+              margin-bottom: 30px; margin-top: 20px; flex-shrink: 0;">
+
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&amp;display=swap" rel="stylesheet">
+  <div style="text-align: center; font-family: 'Merriweather', serif; margin-bottom: 40px;">
+    <h2 style="font-size: 1.2em; font-weight: bold; margin: 0; color: #fff;" class="anchored">Walter Mangione</h2>
+    <p style="font-size: 0.9em; margin: 10px 0 0 0; opacity: 0.9; line-height: 1.4;">
+      PhD Student,<br>
+      Data Scientist and<br> Computer Scientist.
+    </p>
+  </div>
+
+  <div style="width: 100%; margin-top: auto;">
+      <h3 style="color: #ecf0f1; font-size: 1.1em; margin-bottom: 15px; border-bottom: 1px solid #1abc9c; padding-bottom: 5px;" class="anchored">Contacts</h3>
+      
+      <p style="margin: 8px 0; display: flex; align-items: center; font-size: 0.85em;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="margin-right: 10px;" viewbox="0 0 16 16">
+          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-5.803 3.482L15 12.117V5.383zM14.8 13H1.2l5.803-3.482L1.2 6.117V13h13.6z"></path>
+        </svg>
+        <a href="mailto:w.mangione@phd.uniba.it" style="color: #1abc9c; text-decoration: none;">w.mangione@phd.uniba.it</a>
+      </p>
+      
+      <p style="margin: 8px 0; display: flex; align-items: center; font-size: 0.85em;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="margin-right: 10px;" viewbox="0 0 448 512">
+          <path d="M100.28 448c-19.86 0-36-16.14-36-36v-80c0-19.86 16.14-36 36-36h247.44c19.86 0 36 16.14 36 36v80c0 19.86-16.14 36-36 36H100.28zm0-144c-19.86 0-36-16.14-36-36v-80c0-19.86 16.14-36 36-36h247.44c19.86 0 36 16.14 36 36v80c0 19.86-16.14 36-36 36H100.28z"></path>
+        </svg>
+        <a href="https://www.linkedin.com/in/walter-mangione-458817279" style="color: #1abc9c; text-decoration: none;">linkedin.com/in/waltermangione</a>
+      </p>
+      
+      <p style="margin: 8px 0; display: flex; align-items: center; font-size: 0.85em;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="margin-right: 10px;" viewbox="0 0 496 512">
+          <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-2.9 0-5.2-1.6-5.2-3.6 0-2 2.3-3.6 5.2-3.6 2.9 0 5.2 1.6 5.2 3.6zm-33.4-6c-.7 1.6-2.5 2.1-4.2 1.2-1.7-.9-2.4-2.9-1.7-4.5.7-1.6 2.5-2.1 4.2-1.2 1.7.9 2.4 2.9 1.7 4.5zM248 8C111 8 0 119 0 256c0 110 71.3 203.6 170.2 236.8 12.4 2.3 17-5.4 17-12v-44c-69.3 15.1-83.9-33.6-83.9-33.6-11.4-29-27.9-36.7-27.9-36.7-22.9-15.7 1.7-15.4 1.7-15.4 25.3 1.8 38.6 25.9 38.6 25.9 22.5 38.6 59 27.5 73.3 21 2.3-16.3 8.8-27.5 16-33.8-55.3-6.3-113.5-27.7-113.5-123.4 0-27.2 9.7-49.4 25.6-66.8-2.6-6.3-11.1-31.8 2.4-66.3 0 0 20.9-6.7 68.6 25.5 19.9-5.5 41.3-8.2 62.6-8.3 21.3.1 42.7 2.8 62.6 8.3 47.7-32.2 68.6-25.5 68.6-25.5 13.5 34.5 5 60 2.4 66.3 15.9 17.4 25.6 39.6 25.6 66.8 0 95.9-58.3 117-113.7 123.2 9 7.8 17 23.3 17 47v69.8c0 6.6 4.6 14.4 17 12C424.7 459.6 496 366 496 256 496 119 385 8 248 8z"></path>
+        </svg>
+        <a href="https://github.com/rkmllh" style="color: #1abc9c; text-decoration: none;">github.com/rkmllh</a>
+      </p>
+
+      <p style="margin: 8px 0; display: flex; align-items: center; font-size: 0.85em;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="margin-right: 10px;" viewbox="0 0 512 512">
+          <path d="M501.1 448H10.9C4.9 448 0 453 0 459.1c0 6.1 4.9 11 10.9 11h490.2c6.1 0 10.9-4.9 10.9-11 0-6.1-4.8-11.1-10.9-11.1zM128 352h256l-48-128H176l-48 128zM240 64h32v128h-32V64z"></path>
+        </svg>
+        <a href="https://cilab.di.uniba.it/" style="color: #1abc9c; text-decoration: none;">CILAB, 4th Floor, University of Bari
+        </a>
+      </p>
+
+  </div>
+</div>
+<style>
+/* Push main content to avoid left sidebar */
+body {
+  padding-left: 370px; /* left sidebar width + gap */
+  padding-right: 200px; /* right menu width + gap */
+}
+
+/* Right-hand menu */
+.right-menu {
+  position: fixed;
+  top: 10em;
+  right: 20px;
+  width: 180px;
+  font-size: 0.9em;
+  color: #2c3e50;
+  border-left: 3px solid #2c3e50;
+  padding-left: 10px;
+  z-index: 10;
+}
+
+/* Responsive: small screens */
+@media (max-width: 900px) {
+  body {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .right-menu {
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    border-left: none !important;
+    width: 100% !important;
+    margin-bottom: 20px;
+    padding-left: 0 !important;
+  }
+}
+</style>
+<div class="right-menu">
+<p><strong>On this page:</strong><br> <a href="#bio" style="text-decoration: none; color: #0080ffff; display: block;">About Me</a> <a href="#research_interest" style="text-decoration: none; color: #0080ffff; display: block;">Research Interests</a> <a href="#research" style="text-decoration: none; color: #0080ffff; display: block;">My Research</a> <a href="#news--updates" style="text-decoration: none; color: #0080ffff; display: block;">News</a> <a href="#publications" style="text-decoration: none; color: #0080ffff; display: block;">Publications</a></p>
+</div>
+<section id="bio" class="level2">
+<h2 class="anchored" data-anchor-id="bio">About Me</h2>
+<p>Hi! I am <strong>Walter Mangione</strong>, a PhD student in <strong>Computer Science and Mathematics</strong> at the <strong>Università degli Studi di Bari Aldo Moro</strong>. I hold a <strong>Bachelor’s degree in Computer Science</strong> and a <strong>Master’s degree in Data Science</strong>, both <em>cum laude</em>.</p>
+<p>Currently, I am part of the <a href="https://cilab.di.uniba.it/">Cilab (Computational Intelligence Laboratory)</a>, where I study brain diseases using graph-based methods, focusing on how brain connectomes are built, analyzed and interpreted.</p>
+<p>My research interests include:</p>
+<div style="margin-bottom:40px;">
+<p><span style="background-color:#1abc9c; color:#fff; padding:5px 10px; border-radius:15px; margin-right:5px;">Graph Neural Networks</span> <span style="background-color:#3498db; color:#fff; padding:5px 10px; border-radius:15px; margin-right:5px;">Graph Theory</span> <span style="background-color:#66e3ff; color:#fff; padding:5px 10px; border-radius:15px; margin-right:5px;">Deep Learning</span> <span style="background-color:#e67e22; color:#fff; padding:5px 10px; border-radius:15px; margin-right:5px;">Explainability</span></p>
+</div>
+</section>
+<section id="research" class="level2">
+<h2 class="anchored" data-anchor-id="research">My Research</h2>
+<p>My current research focuses on <strong>brain diseases</strong>, with an emphasis on <strong>graph-based computational approaches</strong> for understanding its underlying mechanisms. I am particularly interested in <strong>state-of-the-art methods for graph construction in brain connectome representations</strong> , including the development and evaluation of different graph-building strategies. I also explore <strong>graph neural networks (GNNs)</strong> for modeling brain connectivity, focusing on <strong>general GNN applications</strong> as well as the <strong>explainability and interpretability</strong> of these models. Additionally, I am fascinated by the <strong>mathematical foundations of machine learning</strong>, combining theoretical insights with practical applications to enhance both performance and interpretability. I am strongly convinced of the <strong>role and importance of scientific research for humanity</strong>, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being.</p>
+</section>
+<section id="news--updates" class="level2">
+<h2 class="anchored" data-anchor-id="news--updates">News</h2>
+<div class="timeline-pretty">
 <ul>
-<li>🔍 <a href="./about.html">Discover more about me</a></li>
-<li>📚 <a href="./research.html">Explore my research</a></li>
-<li>📧 <a href="./contacts.html">Reach me</a></li>
+<li><strong>Oct 2025:</strong> Started PhD in Computer Science and Mathematics at Università degli Studi di Bari Aldo Moro</li>
+<li><strong>Jul 2025:</strong> Completed my M.Sc. in Data Science. My thesis explored graph-based representations of the human brain aimed at enhancing the semantic richness and discriminative power of models used in Alzheimer’s disease classification.</li>
+<li><strong>Dec 2023:</strong> Graduated with a B.Sc. in Computer Science. My thesis in Cybersecurity involved the design and implementation of a proof-of-concept Windows-based malware to analyze system vulnerabilities and defensive mechanisms.</li>
 </ul>
+</div>
+</section>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -557,8 +850,22 @@ ul.task-list li input[type="checkbox"] {
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>© 2025 Walter Mangione Università degli Studi di Bari Aldo Moro</p>
+</div>
+  </div>
+</footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

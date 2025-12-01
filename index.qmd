@@ -1,14 +1,165 @@
 ---
 title: "Walter Mangione – PhD Student"
-format: html
+format:
+  html:
+    toc: false
+    page-layout: article
+    smooth-scroll: true
+    css: styles.css
 ---
 
-Hi! I am **Walter Mangione**, a PhD student in **Computer Science and Mathematics** at **Università degli Studi di Bari, Aldo Moro**.
+<style>
+  /* This pushes the main text to the right so it doesn't hide behind the sidebar */
+  body {
+    padding-left: 320px !important; /* 300px sidebar + 20px gap */
+  }
+  
+  /* On mobile/small screens, reset the layout */
+  @media (max-width: 900px) {
+    body { padding-left: 0 !important; }
+    .my-sidebar { 
+      position: relative !important; 
+      width: 100% !important; 
+      height: auto !important;
+      padding: 20px !important;
+    }
+  }
+</style>
 
-I hold a **Bachelor’s degree in Computer Science** and a **Master’s degree in Data Science**, both _cum laude_.
-                                    
-From this page, you can:  
+```{=html}
+<div class="my-sidebar" style="position: fixed; top: 0; bottom: 0; left: 0; width: 350px; 
+            background-color: #0c4a4dff; z-index: 5; padding: 80px 20px 40px 20px; 
+            color: #ffffff; display: flex; flex-direction: column; 
+            align-items: center; overflow-y: auto;">
 
-- 🔍 [Discover more about me](about.qmd)
-- 📚 [Explore my research](research.qmd)
-- 📧 [Reach me](contacts.qmd)
+  <img src="images/image.png" alt="Walter Mangione" 
+       style="width: 160px; height: 160px; object-fit: cover; border-radius: 50%; 
+              border: 3px solid #ffffff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+              margin-bottom: 30px; margin-top: 20px; flex-shrink: 0;">
+
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <div style="text-align: center; font-family: 'Merriweather', serif; margin-bottom: 40px;">
+    <h2 style="font-size: 1.2em; font-weight: bold; margin: 0; color: #fff;">Walter Mangione</h2>
+    <p style="font-size: 0.9em; margin: 10px 0 0 0; opacity: 0.9; line-height: 1.4;">
+      PhD Student,<br>
+      Data Scientist and<br> Computer Scientist.
+    </p>
+  </div>
+
+  <div style="width: 100%; margin-top: auto;">
+      <h3 style="color: #ecf0f1; font-size: 1.1em; margin-bottom: 15px; border-bottom: 1px solid #1abc9c; padding-bottom: 5px;">Contacts</h3>
+      
+      <p style="margin: 8px 0; display: flex; align-items: center; font-size: 0.85em;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="margin-right: 10px;" viewBox="0 0 16 16">
+          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-5.803 3.482L15 12.117V5.383zM14.8 13H1.2l5.803-3.482L1.2 6.117V13h13.6z"/>
+        </svg>
+        <a href="mailto:w.mangione@phd.uniba.it" style="color: #1abc9c; text-decoration: none;">w.mangione@phd.uniba.it</a>
+      </p>
+      
+      <p style="margin: 8px 0; display: flex; align-items: center; font-size: 0.85em;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="margin-right: 10px;" viewBox="0 0 448 512">
+          <path d="M100.28 448c-19.86 0-36-16.14-36-36v-80c0-19.86 16.14-36 36-36h247.44c19.86 0 36 16.14 36 36v80c0 19.86-16.14 36-36 36H100.28zm0-144c-19.86 0-36-16.14-36-36v-80c0-19.86 16.14-36 36-36h247.44c19.86 0 36 16.14 36 36v80c0 19.86-16.14 36-36 36H100.28z"/>
+        </svg>
+        <a href="https://www.linkedin.com/in/walter-mangione-458817279" style="color: #1abc9c; text-decoration: none;">linkedin.com/in/waltermangione</a>
+      </p>
+      
+      <p style="margin: 8px 0; display: flex; align-items: center; font-size: 0.85em;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="margin-right: 10px;" viewBox="0 0 496 512">
+          <path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-2.9 0-5.2-1.6-5.2-3.6 0-2 2.3-3.6 5.2-3.6 2.9 0 5.2 1.6 5.2 3.6zm-33.4-6c-.7 1.6-2.5 2.1-4.2 1.2-1.7-.9-2.4-2.9-1.7-4.5.7-1.6 2.5-2.1 4.2-1.2 1.7.9 2.4 2.9 1.7 4.5zM248 8C111 8 0 119 0 256c0 110 71.3 203.6 170.2 236.8 12.4 2.3 17-5.4 17-12v-44c-69.3 15.1-83.9-33.6-83.9-33.6-11.4-29-27.9-36.7-27.9-36.7-22.9-15.7 1.7-15.4 1.7-15.4 25.3 1.8 38.6 25.9 38.6 25.9 22.5 38.6 59 27.5 73.3 21 2.3-16.3 8.8-27.5 16-33.8-55.3-6.3-113.5-27.7-113.5-123.4 0-27.2 9.7-49.4 25.6-66.8-2.6-6.3-11.1-31.8 2.4-66.3 0 0 20.9-6.7 68.6 25.5 19.9-5.5 41.3-8.2 62.6-8.3 21.3.1 42.7 2.8 62.6 8.3 47.7-32.2 68.6-25.5 68.6-25.5 13.5 34.5 5 60 2.4 66.3 15.9 17.4 25.6 39.6 25.6 66.8 0 95.9-58.3 117-113.7 123.2 9 7.8 17 23.3 17 47v69.8c0 6.6 4.6 14.4 17 12C424.7 459.6 496 366 496 256 496 119 385 8 248 8z"/>
+        </svg>
+        <a href="https://github.com/rkmllh" style="color: #1abc9c; text-decoration: none;">github.com/rkmllh</a>
+      </p>
+
+      <p style="margin: 8px 0; display: flex; align-items: center; font-size: 0.85em;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="margin-right: 10px;" viewBox="0 0 512 512">
+          <path d="M501.1 448H10.9C4.9 448 0 453 0 459.1c0 6.1 4.9 11 10.9 11h490.2c6.1 0 10.9-4.9 10.9-11 0-6.1-4.8-11.1-10.9-11.1zM128 352h256l-48-128H176l-48 128zM240 64h32v128h-32V64z"/>
+        </svg>
+        <a href="https://cilab.di.uniba.it/" style="color: #1abc9c; text-decoration: none;">CILAB, 4th Floor, University of Bari
+        </a>
+      </p>
+
+  </div>
+</div>
+```
+
+<style>
+/* Push main content to avoid left sidebar */
+body {
+  padding-left: 370px; /* left sidebar width + gap */
+  padding-right: 200px; /* right menu width + gap */
+}
+
+/* Right-hand menu */
+.right-menu {
+  position: fixed;
+  top: 10em;
+  right: 20px;
+  width: 180px;
+  font-size: 0.9em;
+  color: #2c3e50;
+  border-left: 3px solid #2c3e50;
+  padding-left: 10px;
+  z-index: 10;
+}
+
+/* Responsive: small screens */
+@media (max-width: 900px) {
+  body {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .right-menu {
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    border-left: none !important;
+    width: 100% !important;
+    margin-bottom: 20px;
+    padding-left: 0 !important;
+  }
+}
+</style>
+
+<div class="right-menu">
+<strong>On this page:</strong><br>
+<a href="#bio" style="text-decoration: none; color: #0080ffff; display: block;">About Me</a>
+<a href="#research_interest" style="text-decoration: none; color: #0080ffff; display: block;">Research Interests</a>
+<a href="#research" style="text-decoration: none; color: #0080ffff; display: block;">My Research</a>
+<a href="#news--updates" style="text-decoration: none; color: #0080ffff; display: block;">News</a>
+<a href="#publications" style="text-decoration: none; color: #0080ffff; display: block;">Publications</a>
+</div>
+
+## About Me {#bio}
+
+Hi! I am **Walter Mangione**, a PhD student in **Computer Science and Mathematics** at the **Università degli Studi di Bari Aldo Moro**.
+I hold a **Bachelor’s degree in Computer Science** and a **Master’s degree in Data Science**, both *cum laude*. 
+
+Currently, I am part of the [Cilab (Computational Intelligence Laboratory)](https://cilab.di.uniba.it/), where I study brain diseases using graph-based methods, 
+focusing on how brain connectomes are built, analyzed and interpreted.
+
+My research interests include:
+
+<div style="margin-bottom:40px;">
+  <span style="background-color:#1abc9c; color:#fff; padding:5px 10px; border-radius:15px; margin-right:5px;">Graph Neural Networks</span>
+  <span style="background-color:#3498db; color:#fff; padding:5px 10px; border-radius:15px; margin-right:5px;">Graph Theory</span>
+  <span style="background-color:#66e3ff; color:#fff; padding:5px 10px; border-radius:15px; margin-right:5px;">Deep Learning</span>
+  <span style="background-color:#e67e22; color:#fff; padding:5px 10px; border-radius:15px; margin-right:5px;">Explainability</span>
+</div>
+
+## My Research {#research}
+
+My current research focuses on **brain diseases**, with an emphasis on **graph-based computational approaches** for understanding its underlying mechanisms. I am particularly interested in **state-of-the-art methods for graph construction in brain connectome representations** , including the development and evaluation of different graph-building strategies.
+I also explore **graph neural networks (GNNs)** for modeling brain connectivity, focusing on **general GNN applications** as well as the **explainability and interpretability** of these models. Additionally, I am fascinated by the **mathematical foundations of machine learning**, combining theoretical insights with practical applications to enhance both performance and interpretability.
+I am strongly convinced of the **role and importance of scientific research for humanity**, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being.
+
+## News {#news--updates}
+
+<div class="timeline-pretty">
+
+- **Oct 2025:** Started PhD in Computer Science and Mathematics at Università degli Studi di Bari Aldo Moro
+- **Jul 2025:** Completed my M.Sc. in Data Science. My thesis explored graph-based representations of the human brain aimed at enhancing the semantic richness and discriminative power of models used in Alzheimer's disease classification.
+- **Dec 2023:** Graduated with a B.Sc. in Computer Science. My thesis in Cybersecurity involved the design and implementation of a proof-of-concept Windows-based malware to analyze system vulnerabilities and defensive mechanisms.
+
+</div>
+
+## Publications {#publications}

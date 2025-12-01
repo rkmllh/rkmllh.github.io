@@ -1,24 +1,22 @@
 project:
   type: website
 
-output-dir: docs
-
 website:
   title: "Walter Mangione"
+  page-footer:
+    right: "© 2025 Walter Mangione Università degli Studi di Bari Aldo Moro"
   navbar:
-    left:
-      - text: "Home"
-        href: index.qmd
-      - text: "About"
-        href: about.qmd
-      - text: "Research"
-        href: research.qmd
-      - text: "Contacts"
-        href: contacts.qmd
-        
+    left: []   # no items on left
+    right: []  # no items on right, search will appear automatically
+
 format:
   html:
-    theme: darkly
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
-    include-in-header: header.html
-
+    toggle: true     # enables theme toggle
+    toc: true
+    toc-depth: 3
+    code-link: true
+    search: true     # enables search bar

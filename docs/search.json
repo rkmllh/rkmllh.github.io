@@ -1,37 +1,37 @@
 [
   {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "My research",
-    "section": "",
-    "text": "My research\n\n                                                   \n                                                     bbbbbbbb            \n                      iiii  lllllll                  b::::::b            \n                     i::::i l:::::l                  b::::::b            \n                      iiii  l:::::l                  b::::::b            \n                            l:::::l                   b:::::b            \n    cccccccccccccccciiiiiii  l::::l   aaaaaaaaaaaaa   b:::::bbbbbbbbb    \n  cc:::::::::::::::ci:::::i  l::::l   a::::::::::::a  b::::::::::::::bb  \n c:::::::::::::::::c i::::i  l::::l   aaaaaaaaa:::::a b::::::::::::::::b \nc:::::::cccccc:::::c i::::i  l::::l            a::::a b:::::bbbbb:::::::b\nc::::::c     ccccccc i::::i  l::::l     aaaaaaa:::::a b:::::b    b::::::b\nc:::::c              i::::i  l::::l   aa::::::::::::a b:::::b     b:::::b\nc:::::c              i::::i  l::::l  a::::aaaa::::::a b:::::b     b:::::b\nc::::::c     ccccccc i::::i  l::::l a::::a    a:::::a b:::::b     b:::::b\nc:::::::cccccc:::::ci::::::il::::::la::::a    a:::::a b:::::bbbbbb::::::b\n c:::::::::::::::::ci::::::il::::::la:::::aaaa::::::a b::::::::::::::::b \n  cc:::::::::::::::ci::::::il::::::l a::::::::::aa:::ab:::::::::::::::b  \n    cccccccccccccccciiiiiiiillllllll  aaaaaaaaaa  aaaabbbbbbbbbbbbbbbb   \n\n\n\nCurrently, I belong to Cilab (Computational Intelligence Laboratory).\nMy current research focuses on brain diseases, with an emphasis on graph-based computational approaches for understanding its underlying mechanisms. I am particularly interested in state-of-the-art methods for graph construction in brain connectome representations , including the development and evaluation of different graph-building strategies. I also explore graph neural networks (GNNs) for modeling brain connectivity, focusing on general GNN applications as well as the explainability and interpretability of these models. Additionally, I am fascinated by the mathematical foundations of machine learning, combining theoretical insights with practical applications to enhance both performance and interpretability. I am strongly convinced of the role and importance of scientific research for humanity, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Walter Mangione – PhD Student",
     "section": "",
-    "text": "Hi! I am Walter Mangione, a PhD student in Computer Science and Mathematics at Università degli Studi di Bari, Aldo Moro.\nI hold a Bachelor’s degree in Computer Science and a Master’s degree in Data Science, both cum laude.\nFrom this page, you can:\n\n🔍 Discover more about me\n📚 Explore my research\n📧 Reach me"
+    "text": "PhD Student,\n      Data Scientist and Computer Scientist.\n    \n  \n\n  \n      \n      \n      \n        \n          \n        \n        w.mangione@phd.uniba.it\n      \n      \n      \n        \n          \n        \n        linkedin.com/in/waltermangione\n      \n      \n      \n        \n          \n        \n        github.com/rkmllh\n      \n\n      \n        \n          \n        \n        CILAB, 4th Floor, University of Bari"
   },
   {
-    "objectID": "contacts.html",
-    "href": "contacts.html",
-    "title": "Walter Mangione",
-    "section": "",
-    "text": "Feel free to reach me at:\n\n\n 📧 w.mangione@phd.uniba.it \n  Walter Mangione, PhD \n  GitHub: rkmllh"
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Walter Mangione – PhD Student",
+    "section": "About Me",
+    "text": "About Me\nHi! I am Walter Mangione, a PhD student in Computer Science and Mathematics at the Università degli Studi di Bari Aldo Moro. I hold a Bachelor’s degree in Computer Science and a Master’s degree in Data Science, both cum laude.\nCurrently, I am part of the Cilab (Computational Intelligence Laboratory), where I study brain diseases using graph-based methods, focusing on how brain connectomes are built, analyzed and interpreted.\nMy research interests include:\n\nGraph Neural Networks Graph Theory Deep Learning Explainability"
   },
   {
-    "objectID": "contacts.html#contacts",
-    "href": "contacts.html#contacts",
-    "title": "Walter Mangione",
-    "section": "",
-    "text": "Feel free to reach me at:\n\n\n 📧 w.mangione@phd.uniba.it \n  Walter Mangione, PhD \n  GitHub: rkmllh"
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Walter Mangione – PhD Student",
+    "section": "My Research",
+    "text": "My Research\nMy current research focuses on brain diseases, with an emphasis on graph-based computational approaches for understanding its underlying mechanisms. I am particularly interested in state-of-the-art methods for graph construction in brain connectome representations , including the development and evaluation of different graph-building strategies. I also explore graph neural networks (GNNs) for modeling brain connectivity, focusing on general GNN applications as well as the explainability and interpretability of these models. Additionally, I am fascinated by the mathematical foundations of machine learning, combining theoretical insights with practical applications to enhance both performance and interpretability. I am strongly convinced of the role and importance of scientific research for humanity, and I strive to conduct work that contributes meaningfully to both knowledge and societal well-being."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Who Am I?",
-    "section": "",
-    "text": "Who Am I?\n\n                                                                                       $$\\                     \n                                                                                       \\__|                    \n $$$$$$\\   $$$$$$\\   $$$$$$\\   $$$$$$\\   $$$$$$\\  $$$$$$\\  $$$$$$\\$$$$\\  $$$$$$\\$$$$\\  $$\\ $$$$$$$\\   $$$$$$\\  \n$$  __$$\\ $$  __$$\\ $$  __$$\\ $$  __$$\\ $$  __$$\\ \\____$$\\ $$  _$$  _$$\\ $$  _$$  _$$\\ $$ |$$  __$$\\ $$  __$$\\ \n$$ /  $$ |$$ |  \\__|$$ /  $$ |$$ /  $$ |$$ |  \\__|$$$$$$$ |$$ / $$ / $$ |$$ / $$ / $$ |$$ |$$ |  $$ |$$ /  $$ |\n$$ |  $$ |$$ |      $$ |  $$ |$$ |  $$ |$$ |     $$  __$$ |$$ | $$ | $$ |$$ | $$ | $$ |$$ |$$ |  $$ |$$ |  $$ |\n$$$$$$$  |$$ |      \\$$$$$$  |\\$$$$$$$ |$$ |     \\$$$$$$$ |$$ | $$ | $$ |$$ | $$ | $$ |$$ |$$ |  $$ |\\$$$$$$$ |\n$$  ____/ \\__|       \\______/  \\____$$ |\\__|      \\_______|\\__| \\__| \\__|\\__| \\__| \\__|\\__|\\__|  \\__| \\____$$ |\n$$ |                          $$\\   $$ |                                                             $$\\   $$ |\n$$ |                          \\$$$$$$  |                                                             \\$$$$$$  |\n\\__|                           \\______/                                                               \\______/ \n\n\nProgramming. Programming is the key. From a young age, I was captivated by it, especially C programming. Since then, I have never stopped learning, improving my skills, and exploring the depths of Computer Science. So, I earned a Bachelor’s degree in Computer Science and a Master’s degree in Data Science. So, If you love low-level Programming, Deep Learning, and Mathematics, you are in the right place. Currently, I’m working with the latter two. So, I’m always on the lookout for new developments in deep learning, from new architectures to new ideas. In my free time, however, I also devote myself to the former, when I can! Among the books that have most influenced me and brought me ever closer to Computer Science, I can’t help but mention Reverse Engineering for Beginners by Dennis Yurichev, The C Programming Language by Ritchie and Kernighan, Understanding Deep Learning by Simon J.D. Prince, Hacking: The Art of Exploitation by Jon Erickson, and, finally, Machine Learning by Tom Mitchell. Although they cover fundamentally different topics in Computer Science, I can’t help but reread them whenever I feel like it.\nOtherwise, I am a strong supporter of free information online, online anonymity, and free education. I believe everyone should have access to relevant study materials.\n\n\n .S_sSSs      sSSs    sSSs   .S_sSSs          S.        sSSs   .S_SSSs     .S_sSSs     .S_sSSs     .S   .S_sSSs      sSSSSs  \n.SS~YS%%b    d%%SP   d%%SP  .SS~YS%%b         SS.      d%%SP  .SS~SSSSS   .SS~YS%%b   .SS~YS%%b   .SS  .SS~YS%%b    d%%%%SP  \nS%S   `S%b  d%S'    d%S'    S%S   `S%b        S%S     d%S'    S%S   SSSS  S%S   `S%b  S%S   `S%b  S%S  S%S   `S%b  d%S'      \nS%S    S%S  S%S     S%S     S%S    S%S        S%S     S%S     S%S    S%S  S%S    S%S  S%S    S%S  S%S  S%S    S%S  S%S       \nS%S    S&S  S&S     S&S     S%S    d*S        S&S     S&S     S%S SSSS%S  S%S    d*S  S%S    S&S  S&S  S%S    S&S  S&S       \nS&S    S&S  S&S_Ss  S&S_Ss  S&S   .S*S        S&S     S&S_Ss  S&S  SSS%S  S&S   .S*S  S&S    S&S  S&S  S&S    S&S  S&S       \nS&S    S&S  S&S~SP  S&S~SP  S&S_sdSSS         S&S     S&S~SP  S&S    S&S  S&S_sdSSS   S&S    S&S  S&S  S&S    S&S  S&S       \nS&S    S&S  S&S     S&S     S&S~YSSY          S&S     S&S     S&S    S&S  S&S~YSY%b   S&S    S&S  S&S  S&S    S&S  S&S sSSs  \nS*S    d*S  S*b     S*b     S*S               S*b     S*b     S*S    S&S  S*S   `S%b  S*S    S*S  S*S  S*S    S*S  S*b `S%%  \nS*S   .S*S  S*S.    S*S.    S*S               S*S.    S*S.    S*S    S*S  S*S    S%S  S*S    S*S  S*S  S*S    S*S  S*S   S%  \nS*S_sdSSS    SSSbs   SSSbs  S*S                SSSbs   SSSbs  S*S    S*S  S*S    S&S  S*S    S*S  S*S  S*S    S*S   SS_sSSS  \nSSS~YSSY      YSSP    YSSP  S*S                 YSSP    YSSP  SSS    S*S  S*S    SSS  S*S    SSS  S*S  S*S    SSS    Y~YSSY  \n                            SP                                       SP   SP          SP          SP   SP                    \n                            Y                                        Y    Y           Y           Y    Y"
+    "objectID": "index.html#news--updates",
+    "href": "index.html#news--updates",
+    "title": "Walter Mangione – PhD Student",
+    "section": "News",
+    "text": "News\n\n\nOct 2025: Started PhD in Computer Science and Mathematics at Università degli Studi di Bari Aldo Moro\nJul 2025: Completed my M.Sc. in Data Science. My thesis explored graph-based representations of the human brain aimed at enhancing the semantic richness and discriminative power of models used in Alzheimer’s disease classification.\nDec 2023: Graduated with a B.Sc. in Computer Science. My thesis in Cybersecurity involved the design and implementation of a proof-of-concept Windows-based malware to analyze system vulnerabilities and defensive mechanisms."
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Walter Mangione – PhD Student",
+    "section": "Publications",
+    "text": "Publications"
   }
 ]
