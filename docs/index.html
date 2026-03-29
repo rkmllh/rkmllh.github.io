@@ -322,7 +322,8 @@ ul.task-list li input[type="checkbox"] {
   <div style="display: flex; flex-direction: column; align-items: center; margin-bottom: 40px; width: fit-content; margin-left: auto; margin-right: auto;">
     <!-- Immagine -->
     <div style="width: 120px; height: 170px; overflow: hidden; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.4); border: 2px solid #fff; margin-bottom: 15px;">
-      <img src="images/walter_profile.jpg" alt="Walter Mangione" style="width: 120px; height: auto; object-fit: cover; display: block;">
+      <img src="images/walter_profile.jpg" alt="Walter Mangione" style="width: 120px; height: 170px; object-fit: cover; 
+                  object-position: center 50%; display: block;">
     </div>
 
     <!-- Testo -->
@@ -339,11 +340,19 @@ ul.task-list li input[type="checkbox"] {
   <div style="width: 100%; margin-top: auto;">
       <h3 style="color: #ecf0f1; font-size: 1.1em; margin-bottom: 15px; border-bottom: 1px solid #1abc9c; padding-bottom: 5px;" class="anchored">Contacts</h3>
       
-      <p style="margin: 8px 0; display: flex; align-items: center; font-size: 0.85em;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="margin-right: 10px;" viewbox="0 0 16 16">
+      <p style="margin: 8px 0; display: flex; align-items: flex-start; font-size: 0.85em;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="margin-right: 10px; margin-top: 3px;" viewbox="0 0 16 16">
           <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-5.803 3.482L15 12.117V5.383zM14.8 13H1.2l5.803-3.482L1.2 6.117V13h13.6z"></path>
         </svg>
-        <a href="mailto:w.mangione@phd.uniba.it" style="color: #1abc9c; text-decoration: none;">w.mangione@phd.uniba.it</a>
+
+        <span>
+          <a href="mailto:w.mangione@phd.uniba.it" style="color: #1abc9c; text-decoration: none;">
+            w.mangione@phd.uniba.it
+          </a><br>
+          <a href="mailto:walter.mangione101@alu.ulpgc.es" style="color: #1abc9c; text-decoration: none;">
+            walter.mangione101@alu.ulpgc.es
+          </a>
+        </span>
       </p>
       
       <p style="margin: 8px 0; display: flex; align-items: center; font-size: 0.85em;">
@@ -412,7 +421,7 @@ body {
 </div>
 <section id="bio" class="level2">
 <h2 class="anchored" data-anchor-id="bio">About Me</h2>
-<p>Hi! I am <strong>Walter Mangione</strong>, a PhD student in <strong>Computer Science and Mathematics</strong> at the <strong>Università degli Studi di Bari Aldo Moro</strong>. I hold a <strong>Bachelor’s degree in Computer Science</strong> and a <strong>Master’s degree in Data Science</strong>, both <em>cum laude</em>.</p>
+<p>Hi! I am <strong>Walter Mangione</strong>, a PhD student in <strong>Computer Science and Mathematics</strong>, jointly enrolled at the <strong><a href="https://www.uniba.it/">Università degli Studi di Bari Aldo Moro</a></strong> and the <strong><a href="https://www.ulpgc.es/">Universidad de Las Palmas de Gran Canaria</a></strong> under a cotutelle agreement. I hold a <strong>Bachelor’s degree in Computer Science</strong> and a <strong>Master’s degree in Data Science</strong>, both <em>cum laude</em>, from the Università degli Studi di Bari Aldo Moro.</p>
 <p>Currently, I am part of the <a href="https://cilab.di.uniba.it/">Cilab (Computational Intelligence Laboratory)</a>, where I study brain diseases using graph-based methods, focusing on how brain connectomes are built, analyzed and interpreted.</p>
 <p>My research interests include:</p>
 <div style="margin-bottom:40px;">
@@ -427,42 +436,12 @@ body {
 <h2 class="anchored" data-anchor-id="news--updates">News</h2>
 <div class="timeline-pretty">
 <ul>
+<li><strong>Mar 2026:</strong> Our paper, titled “Contrastive Pretraining for Ensemble Graph Neural Networks in Alzheimer’s Disease Classification”, has been accepted at IJCNN 2026 conference. In this work, we demonstrate the benefits of combining contrastive pretraining with ensemble learning for improved Alzheimer’s disease classification.</li>
 <li><strong>Oct 2025:</strong> Started PhD in Computer Science and Mathematics at Università degli Studi di Bari Aldo Moro.</li>
 <li><strong>Jul 2025:</strong> Completed my M.Sc. in Data Science. My thesis explored graph-based representations of the human brain aimed at enhancing the semantic richness and discriminative power of models used in Alzheimer’s disease classification.</li>
 <li><strong>Dec 2023:</strong> Graduated with a B.Sc. in Computer Science. My thesis in Cybersecurity involved the design and implementation of a proof-of-concept Windows-based malware to analyze system vulnerabilities and defensive mechanisms.</li>
 </ul>
 </div>
-</section>
-<section id="projects" class="level2">
-<h2 class="anchored" data-anchor-id="projects">Projects</h2>
-<section id="myfirstproject" class="level3 project-card">
-<h3 class="anchored" data-anchor-id="myfirstproject"><a href="https://github.com/yourusername/MyFirstProject" target="_blank">🧠 MyFirstProject</a></h3>
-<p><strong>Description:</strong><br>
-A short summary of the project, highlighting what it does and its key features.</p>
-<p><strong>Tech Stack:</strong><br>
-Python, Quarto, GitHub (replace with your stack)</p>
-</section>
-<style>
-.project-card {
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 16px;
-  margin-bottom: 16px;
-  background-color: #f9f9f9;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-.project-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-.project-card a {
-  text-decoration: none;
-  color: #1a73e8;
-}
-.project-card a:hover {
-  text-decoration: underline;
-}
-</style>
 </section>
 <section id="publications" class="level2">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>

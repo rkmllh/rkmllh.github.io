@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Walter Mangione – PhD Student",
     "section": "",
-    "text": "Walter Mangione\n      \n        PhD Student,\n        Data Scientist and Computer Scientist.\n      \n    \n\n  \n\n  \n      \n      \n      \n        \n          \n        \n        w.mangione@phd.uniba.it\n      \n      \n      \n        \n          \n        \n        linkedin.com/in/waltermangione\n      \n      \n      \n        \n          \n        \n        github.com/rkmllh\n      \n\n      \n        \n          \n        \n        CILAB, 4th Floor, University of Bari"
+    "text": "Walter Mangione\n      \n        PhD Student,\n        Data Scientist and Computer Scientist.\n      \n    \n\n  \n\n  \n      \n      \n      \n        \n          \n        \n\n        \n          \n            w.mangione@phd.uniba.it\n          \n          \n            walter.mangione101@alu.ulpgc.es\n          \n        \n      \n      \n      \n        \n          \n        \n        linkedin.com/in/waltermangione\n      \n      \n      \n        \n          \n        \n        github.com/rkmllh\n      \n\n      \n        \n          \n        \n        CILAB, 4th Floor, University of Bari"
   },
   {
     "objectID": "index.html#bio",
     "href": "index.html#bio",
     "title": "Walter Mangione – PhD Student",
     "section": "About Me",
-    "text": "About Me\nHi! I am Walter Mangione, a PhD student in Computer Science and Mathematics at the Università degli Studi di Bari Aldo Moro. I hold a Bachelor’s degree in Computer Science and a Master’s degree in Data Science, both cum laude.\nCurrently, I am part of the Cilab (Computational Intelligence Laboratory), where I study brain diseases using graph-based methods, focusing on how brain connectomes are built, analyzed and interpreted.\nMy research interests include:\n\nGraph Neural Networks Graph Theory Deep Learning Explainability"
+    "text": "About Me\nHi! I am Walter Mangione, a PhD student in Computer Science and Mathematics, jointly enrolled at the Università degli Studi di Bari Aldo Moro and the Universidad de Las Palmas de Gran Canaria under a cotutelle agreement. I hold a Bachelor’s degree in Computer Science and a Master’s degree in Data Science, both cum laude, from the Università degli Studi di Bari Aldo Moro.\nCurrently, I am part of the Cilab (Computational Intelligence Laboratory), where I study brain diseases using graph-based methods, focusing on how brain connectomes are built, analyzed and interpreted.\nMy research interests include:\n\nGraph Neural Networks Graph Theory Deep Learning Explainability"
   },
   {
     "objectID": "index.html#research",
@@ -25,14 +25,7 @@
     "href": "index.html#news--updates",
     "title": "Walter Mangione – PhD Student",
     "section": "News",
-    "text": "News\n\n\nOct 2025: Started PhD in Computer Science and Mathematics at Università degli Studi di Bari Aldo Moro.\nJul 2025: Completed my M.Sc. in Data Science. My thesis explored graph-based representations of the human brain aimed at enhancing the semantic richness and discriminative power of models used in Alzheimer’s disease classification.\nDec 2023: Graduated with a B.Sc. in Computer Science. My thesis in Cybersecurity involved the design and implementation of a proof-of-concept Windows-based malware to analyze system vulnerabilities and defensive mechanisms."
-  },
-  {
-    "objectID": "index.html#projects",
-    "href": "index.html#projects",
-    "title": "Walter Mangione – PhD Student",
-    "section": "Projects",
-    "text": "Projects\n\n🧠 MyFirstProject\nDescription:\nA short summary of the project, highlighting what it does and its key features.\nTech Stack:\nPython, Quarto, GitHub (replace with your stack)"
+    "text": "News\n\n\nMar 2026: Our paper, titled “Contrastive Pretraining for Ensemble Graph Neural Networks in Alzheimer’s Disease Classification”, has been accepted at IJCNN 2026 conference. In this work, we demonstrate the benefits of combining contrastive pretraining with ensemble learning for improved Alzheimer’s disease classification.\nOct 2025: Started PhD in Computer Science and Mathematics at Università degli Studi di Bari Aldo Moro.\nJul 2025: Completed my M.Sc. in Data Science. My thesis explored graph-based representations of the human brain aimed at enhancing the semantic richness and discriminative power of models used in Alzheimer’s disease classification.\nDec 2023: Graduated with a B.Sc. in Computer Science. My thesis in Cybersecurity involved the design and implementation of a proof-of-concept Windows-based malware to analyze system vulnerabilities and defensive mechanisms."
   },
   {
     "objectID": "index.html#publications",
