@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Walter Mangione – PhD Student",
+    "section": "",
+    "text": "Walter Mangione\n      \n        PhD Student,\n        Data Scientist and Computer Scientist.\n      \n    \n\n  \n\n  \n      \n      \n      \n        \n          \n        \n\n        \n          \n            w.mangione@phd.uniba.it\n          \n          \n            walter.mangione101@alu.ulpgc.es\n          \n        \n      \n      \n      \n        \n          \n        \n        linkedin.com/in/waltermangione\n      \n      \n      \n        \n          \n        \n        github.com/rkmllh\n      \n\n      \n        \n          \n        \n        CILAB, 4th Floor, University of Bari"
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Walter Mangione – PhD Student",
+    "section": "About Me",
+    "text": "About Me\nHi! I am Walter Mangione, a PhD student in Computer Science and Mathematics, jointly enrolled at the Università degli Studi di Bari Aldo Moro and the Universidad de Las Palmas de Gran Canaria under a cotutelle agreement. I hold a Bachelor’s degree in Computer Science and a Master’s degree in Data Science, both cum laude, from the Università degli Studi di Bari Aldo Moro.\nCurrently, I am part of the Cilab (Computational Intelligence Laboratory), where I study brain diseases using graph-based methods, focusing on how brain connectomes are built, analyzed and interpreted.\nMy research interests include:\n\nGraph Neural Networks Graph Theory Deep Learning Explainability"
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Walter Mangione – PhD Student",
+    "section": "My Research",
+    "text": "My Research\nMy current research focuses on brain diseases, with an emphasis on graph-based computational approaches for understanding its underlying mechanisms. I am particularly interested in state-of-the-art methods for graph construction in brain connectome representations , including the development and evaluation of different graph-building strategies. I also explore graph neural networks (GNNs) for modeling brain connectivity, focusing on general GNN applications as well as the explainability and interpretability of these models. Additionally, I am interested in investigating large foundation models for diagnostic processing, including both classification and explanation tasks. Finally, I am fascinated by the mathematical foundations of machine learning, combining theoretical insights with practical applications to enhance both performance and interpretability."
+  },
+  {
+    "objectID": "index.html#news--updates",
+    "href": "index.html#news--updates",
+    "title": "Walter Mangione – PhD Student",
+    "section": "News",
+    "text": "News\n\n\nMar 2026: Our paper, titled “Contrastive Pretraining for Ensemble Graph Neural Networks in Alzheimer’s Disease Classification”, has been accepted at IJCNN 2026 conference. In this work, we demonstrate the benefits of combining contrastive pretraining with ensemble learning for improved Alzheimer’s disease classification.\nOct 2025: Started PhD in Computer Science and Mathematics at Università degli Studi di Bari Aldo Moro.\nJul 2025: Completed my M.Sc. in Data Science. My thesis explored graph-based representations of the human brain aimed at enhancing the semantic richness and discriminative power of models used in Alzheimer’s disease classification.\nDec 2023: Graduated with a B.Sc. in Computer Science. My thesis in Cybersecurity involved the design and implementation of a proof-of-concept Windows-based malware to analyze system vulnerabilities and defensive mechanisms."
+  },
+  {
+    "objectID": "index.html#publications",
+    "href": "index.html#publications",
+    "title": "Walter Mangione – PhD Student",
+    "section": "Publications",
+    "text": "Publications"
+  }
+]
