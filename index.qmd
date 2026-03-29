@@ -36,7 +36,8 @@ format:
     <!-- Immagine -->
     <div style="width: 120px; height: 170px; overflow: hidden; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.4); border: 2px solid #fff; margin-bottom: 15px;">
       <img src="images/walter_profile.jpg" alt="Walter Mangione"
-          style="width: 120px; height: auto; object-fit: cover; display: block;">
+          style="width: 120px; height: 170px; object-fit: cover; 
+                  object-position: center 50%; display: block;">
     </div>
 
     <!-- Testo -->
@@ -53,11 +54,20 @@ format:
   <div style="width: 100%; margin-top: auto;">
       <h3 style="color: #ecf0f1; font-size: 1.1em; margin-bottom: 15px; border-bottom: 1px solid #1abc9c; padding-bottom: 5px;">Contacts</h3>
       
-      <p style="margin: 8px 0; display: flex; align-items: center; font-size: 0.85em;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" style="margin-right: 10px;" viewBox="0 0 16 16">
+      <p style="margin: 8px 0; display: flex; align-items: flex-start; font-size: 0.85em;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            style="margin-right: 10px; margin-top: 3px;" viewBox="0 0 16 16">
           <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-5.803 3.482L15 12.117V5.383zM14.8 13H1.2l5.803-3.482L1.2 6.117V13h13.6z"/>
         </svg>
-        <a href="mailto:w.mangione@phd.uniba.it" style="color: #1abc9c; text-decoration: none;">w.mangione@phd.uniba.it</a>
+
+        <span>
+          <a href="mailto:w.mangione@phd.uniba.it" style="color: #1abc9c; text-decoration: none;">
+            w.mangione@phd.uniba.it
+          </a><br>
+          <a href="mailto:walter.mangione101@alu.ulpgc.es" style="color: #1abc9c; text-decoration: none;">
+            walter.mangione101@alu.ulpgc.es
+          </a>
+        </span>
       </p>
       
       <p style="margin: 8px 0; display: flex; align-items: center; font-size: 0.85em;">
@@ -129,13 +139,14 @@ body {
 <a href="#bio" style="text-decoration: none; color: #0080ffff; display: block;">About Me</a>
 <a href="#research" style="text-decoration: none; color: #0080ffff; display: block;">My Research</a>
 <a href="#news--updates" style="text-decoration: none; color: #0080ffff; display: block;">News</a>
+<a href="#projects" style="text-decoration: none; color: #0080ffff; display: block;">Projects</a>
 <a href="#publications" style="text-decoration: none; color: #0080ffff; display: block;">Publications</a>
 </div>
 
 ## About Me {#bio}
 
-Hi! I am **Walter Mangione**, a PhD student in **Computer Science and Mathematics** at the **Università degli Studi di Bari Aldo Moro**.
-I hold a **Bachelor’s degree in Computer Science** and a **Master’s degree in Data Science**, both *cum laude*. 
+Hi! I am **Walter Mangione**, a PhD student in **Computer Science and Mathematics**, jointly enrolled at the **[Università degli Studi di Bari Aldo Moro](https://www.uniba.it/)** and the **[Universidad de Las Palmas de Gran Canaria](https://www.ulpgc.es/)** under a cotutelle agreement.
+I hold a **Bachelor’s degree in Computer Science** and a **Master’s degree in Data Science**, both *cum laude*, from the Università degli Studi di Bari Aldo Moro.
 
 Currently, I am part of the [Cilab (Computational Intelligence Laboratory)](https://cilab.di.uniba.it/), where I study brain diseases using graph-based methods, 
 focusing on how brain connectomes are built, analyzed and interpreted.
@@ -159,6 +170,7 @@ Finally, I am fascinated by the **mathematical foundations of machine learning**
 
 <div class="timeline-pretty">
 
+- **Mar 2026:** Our paper, titled "Contrastive Pretraining for Ensemble Graph Neural Networks in Alzheimer’s Disease Classification", has been accepted at IJCNN 2026 conference. In this work, we demonstrate the benefits of combining contrastive pretraining with ensemble learning for improved Alzheimer’s disease classification.
 - **Oct 2025:** Started PhD in Computer Science and Mathematics at Università degli Studi di Bari Aldo Moro.
 - **Jul 2025:** Completed my M.Sc. in Data Science. My thesis explored graph-based representations of the human brain aimed at enhancing the semantic richness and discriminative power of models used in Alzheimer's disease classification.
 - **Dec 2023:** Graduated with a B.Sc. in Computer Science. My thesis in Cybersecurity involved the design and implementation of a proof-of-concept Windows-based malware to analyze system vulnerabilities and defensive mechanisms.
